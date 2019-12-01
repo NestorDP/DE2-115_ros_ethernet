@@ -492,3 +492,119 @@ Info: Building ../ros_ethernet_bsp/
 make --no-print-directory -C ../ros_ethernet_bsp/
 [BSP build complete]
 [ros_ethernet build complete]
+14:30:32 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+[ros_ethernet build complete]
+14:30:33 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+[ros_ethernet build complete]
+14:33:14 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+make: *** No rule to make target 'FreeRTOS/Source/portable/MenMang/heap_2.c', needed by 'obj/default/FreeRTOS/Source/portable/MenMang/heap_2.o'.  Stop.
+14:33:15 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+make: *** No rule to make target 'FreeRTOS/Source/portable/MenMang/heap_2.c', needed by 'obj/default/FreeRTOS/Source/portable/MenMang/heap_2.o'.  Stop.
+14:35:53 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Linking ros_ethernet.elf
+nios2-elf-g++  -T'../ros_ethernet_bsp//linker.x' -msys-crt0='../ros_ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ros_ethernet_bsp/   -Wl,-Map=ros_ethernet.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ros_ethernet.elf obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o obj/default/FreeRTOS/Common_Demo_Tasks/GenQTest.o obj/default/FreeRTOS/Common_Demo_Tasks/PollQ.o obj/default/FreeRTOS/Common_Demo_Tasks/QPeek.o obj/default/FreeRTOS/Common_Demo_Tasks/blocktim.o obj/default/FreeRTOS/Common_Demo_Tasks/comtest.o obj/default/FreeRTOS/Common_Demo_Tasks/countsem.o obj/default/FreeRTOS/Common_Demo_Tasks/death.o obj/default/FreeRTOS/Common_Demo_Tasks/dynamic.o obj/default/FreeRTOS/Common_Demo_Tasks/flash.o obj/default/FreeRTOS/Common_Demo_Tasks/integer.o obj/default/FreeRTOS/Common_Demo_Tasks/recmutex.o obj/default/FreeRTOS/Common_Demo_Tasks/semtest.o obj/default/FreeRTOS/ParTest/ParTest.o obj/default/FreeRTOS/Source/list.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port.o obj/default/FreeRTOS/Source/queue.o obj/default/FreeRTOS/Source/tasks.o obj/default/FreeRTOS/Source/timers.o obj/default/FreeRTOS/serial.o obj/default/hello_world.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port_asm.o -lm -msys-lib=m
+obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o: In function `vStartBlockingQueueTasks':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:107: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:121: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:145: undefined reference to `pvPortMalloc'
+Makefile:1091: recipe for target 'ros_ethernet.elf' failed
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:150: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:162: undefined reference to `pvPortMalloc'
+obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o:/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:167: more undefined references to `pvPortMalloc' follow
+obj/default/FreeRTOS/Source/queue.o: In function `vQueueDelete':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/queue.c:1988: undefined reference to `vPortFree'
+obj/default/FreeRTOS/Source/tasks.o: In function `xTaskCreate':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/tasks.c:770: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/tasks.c:775: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/tasks.c:786: undefined reference to `vPortFree'
+obj/default/FreeRTOS/Source/tasks.o: In function `prvDeleteTCB':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/tasks.c:3845: undefined reference to `vPortFree'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/tasks.c:3846: undefined reference to `vPortFree'
+collect2: error: ld returned 1 exit status
+make: *** [ros_ethernet.elf] Error 1
+14:36:45 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Linking ros_ethernet.elf
+nios2-elf-g++  -T'../ros_ethernet_bsp//linker.x' -msys-crt0='../ros_ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ros_ethernet_bsp/   -Wl,-Map=ros_ethernet.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ros_ethernet.elf obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o obj/default/FreeRTOS/Common_Demo_Tasks/GenQTest.o obj/default/FreeRTOS/Common_Demo_Tasks/PollQ.o obj/default/FreeRTOS/Common_Demo_Tasks/QPeek.o obj/default/FreeRTOS/Common_Demo_Tasks/blocktim.o obj/default/FreeRTOS/Common_Demo_Tasks/comtest.o obj/default/FreeRTOS/Common_Demo_Tasks/countsem.o obj/default/FreeRTOS/Common_Demo_Tasks/death.o obj/default/FreeRTOS/Common_Demo_Tasks/dynamic.o obj/default/FreeRTOS/Common_Demo_Tasks/flash.o obj/default/FreeRTOS/Common_Demo_Tasks/integer.o obj/default/FreeRTOS/Common_Demo_Tasks/recmutex.o obj/default/FreeRTOS/Common_Demo_Tasks/semtest.o obj/default/FreeRTOS/ParTest/ParTest.o obj/default/FreeRTOS/Source/list.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port.o obj/default/FreeRTOS/Source/queue.o obj/default/FreeRTOS/Source/tasks.o obj/default/FreeRTOS/Source/timers.o obj/default/FreeRTOS/serial.o obj/default/hello_world.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port_asm.o -lm -msys-lib=m
+obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o: In function `vStartBlockingQueueTasks':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:107: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:121: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:145: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:150: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:162: undefined reference to `pvPortMalloc'
+Makefile:1091: recipe for target 'ros_ethernet.elf' failed
+obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o:/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Common_Demo_Tasks/BlockQ.c:167: more undefined references to `pvPortMalloc' follow
+obj/default/FreeRTOS/Source/queue.o: In function `vQueueDelete':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/queue.c:1988: undefined reference to `vPortFree'
+obj/default/FreeRTOS/Source/tasks.o: In function `xTaskCreate':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/tasks.c:770: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/tasks.c:775: undefined reference to `pvPortMalloc'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/tasks.c:786: undefined reference to `vPortFree'
+obj/default/FreeRTOS/Source/tasks.o: In function `prvDeleteTCB':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/tasks.c:3845: undefined reference to `vPortFree'
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS/Source/tasks.c:3846: undefined reference to `vPortFree'
+collect2: error: ld returned 1 exit status
+make: *** [ros_ethernet.elf] Error 1
+14:37:42 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Linking ros_ethernet.elf
+nios2-elf-g++  -T'../ros_ethernet_bsp//linker.x' -msys-crt0='../ros_ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ros_ethernet_bsp/   -Wl,-Map=ros_ethernet.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ros_ethernet.elf obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o obj/default/FreeRTOS/Common_Demo_Tasks/GenQTest.o obj/default/FreeRTOS/Common_Demo_Tasks/PollQ.o obj/default/FreeRTOS/Common_Demo_Tasks/QPeek.o obj/default/FreeRTOS/Common_Demo_Tasks/blocktim.o obj/default/FreeRTOS/Common_Demo_Tasks/comtest.o obj/default/FreeRTOS/Common_Demo_Tasks/countsem.o obj/default/FreeRTOS/Common_Demo_Tasks/death.o obj/default/FreeRTOS/Common_Demo_Tasks/dynamic.o obj/default/FreeRTOS/Common_Demo_Tasks/flash.o obj/default/FreeRTOS/Common_Demo_Tasks/integer.o obj/default/FreeRTOS/Common_Demo_Tasks/recmutex.o obj/default/FreeRTOS/Common_Demo_Tasks/semtest.o obj/default/FreeRTOS/ParTest/ParTest.o obj/default/FreeRTOS/Source/list.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port.o obj/default/FreeRTOS/Source/portable/MenMang/heap_2.o obj/default/FreeRTOS/Source/queue.o obj/default/FreeRTOS/Source/tasks.o obj/default/FreeRTOS/Source/timers.o obj/default/FreeRTOS/serial.o obj/default/hello_world.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port_asm.o -lm -msys-lib=m
+nios2-elf-insert ros_ethernet.elf --thread_model hal --cpu_name cpu --qsys true --simulation_enabled false --id 0 --sidp 0x10004510 --timestamp 1574717449 --stderr_dev jtag --stdin_dev jtag --stdout_dev jtag --sopc_system_name NiosII --quartus_project_dir "/home/nestor/repositorios/DE2-115_ros_ethernet" --jdi ../..//output_files/de2_115_ros_ethernet.jdi --sopcinfo /home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet_bsp/../../NiosII.sopcinfo
+Info: (ros_ethernet.elf) 8308 KBytes program size (code + initialized data).
+Info:                    122755 KBytes free for stack + heap.
+Info: Creating ros_ethernet.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source ros_ethernet.elf >ros_ethernet.objdump
+[ros_ethernet build complete]
+14:37:46 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+[ros_ethernet build complete]
+15:07:54 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS/Source/portable/MenMang/heap_4.c to obj/default/FreeRTOS/Source/portable/MenMang/heap_4.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS/Source/portable/MenMang/heap_4.o FreeRTOS/Source/portable/MenMang/heap_4.c
+Info: Linking ros_ethernet.elf
+nios2-elf-g++  -T'../ros_ethernet_bsp//linker.x' -msys-crt0='../ros_ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ros_ethernet_bsp/   -Wl,-Map=ros_ethernet.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ros_ethernet.elf obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o obj/default/FreeRTOS/Common_Demo_Tasks/GenQTest.o obj/default/FreeRTOS/Common_Demo_Tasks/PollQ.o obj/default/FreeRTOS/Common_Demo_Tasks/QPeek.o obj/default/FreeRTOS/Common_Demo_Tasks/blocktim.o obj/default/FreeRTOS/Common_Demo_Tasks/comtest.o obj/default/FreeRTOS/Common_Demo_Tasks/countsem.o obj/default/FreeRTOS/Common_Demo_Tasks/death.o obj/default/FreeRTOS/Common_Demo_Tasks/dynamic.o obj/default/FreeRTOS/Common_Demo_Tasks/flash.o obj/default/FreeRTOS/Common_Demo_Tasks/integer.o obj/default/FreeRTOS/Common_Demo_Tasks/recmutex.o obj/default/FreeRTOS/Common_Demo_Tasks/semtest.o obj/default/FreeRTOS/ParTest/ParTest.o obj/default/FreeRTOS/Source/list.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port.o obj/default/FreeRTOS/Source/portable/MenMang/heap_4.o obj/default/FreeRTOS/Source/queue.o obj/default/FreeRTOS/Source/tasks.o obj/default/FreeRTOS/Source/timers.o obj/default/FreeRTOS/serial.o obj/default/hello_world.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port_asm.o -lm -msys-lib=m
+nios2-elf-insert ros_ethernet.elf --thread_model hal --cpu_name cpu --qsys true --simulation_enabled false --id 0 --sidp 0x10004510 --timestamp 1574717449 --stderr_dev jtag --stdin_dev jtag --stdout_dev jtag --sopc_system_name NiosII --quartus_project_dir "/home/nestor/repositorios/DE2-115_ros_ethernet" --jdi ../..//output_files/de2_115_ros_ethernet.jdi --sopcinfo /home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet_bsp/../../NiosII.sopcinfo
+Info: (ros_ethernet.elf) 8309 KBytes program size (code + initialized data).
+Info:                    122755 KBytes free for stack + heap.
+Info: Creating ros_ethernet.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source ros_ethernet.elf >ros_ethernet.objdump
+[ros_ethernet build complete]
+15:07:58 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+[ros_ethernet build complete]

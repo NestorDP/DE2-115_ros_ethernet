@@ -2470,6 +2470,48 @@
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
+					<resource project-relative-path="FreeRTOS/Source/portable/MenMang/heap_4.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
 					<resource project-relative-path="HAL/src/alt_putcharbuf.c">
 						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>

@@ -159,11 +159,11 @@ C_SRCS += FreeRTOS/Common_Demo_Tasks/semtest.c
 C_SRCS += FreeRTOS/ParTest/ParTest.c
 C_SRCS += FreeRTOS/Source/list.c
 C_SRCS += FreeRTOS/Source/portable/GCC/NiosII/port.c
-C_SRCS += FreeRTOS/Source/portable/MenMang/heap_2.c
 C_SRCS += FreeRTOS/Source/queue.c
 C_SRCS += FreeRTOS/Source/tasks.c
 C_SRCS += FreeRTOS/Source/timers.c
 C_SRCS += FreeRTOS/serial.c
+C_SRCS += FreeRTOS/Source/portable/MenMang/heap_4.c
 CXX_SRCS :=
 ASM_SRCS := FreeRTOS/Source/portable/GCC/NiosII/port_asm.S
 
@@ -206,9 +206,9 @@ APP_INCLUDE_DIRS += FreeRTOS/Common_Demo_Tasks
 APP_INCLUDE_DIRS += FreeRTOS/Common_Demo_Tasks/include
 APP_INCLUDE_DIRS += FreeRTOS/Source
 APP_INCLUDE_DIRS += FreeRTOS/Source/include
-APP_INCLUDE_DIRS += FreeRTOS/Source/portable/MenMang
 APP_INCLUDE_DIRS += FreeRTOS/Source/portable/GCC/NiosII
 APP_INCLUDE_DIRS += FreeRTOS/ParTest
+APP_INCLUDE_DIRS += FreeRTOS/Source/portable/MenMang
 APP_LIBRARY_DIRS :=
 APP_LIBRARY_NAMES :=
 
