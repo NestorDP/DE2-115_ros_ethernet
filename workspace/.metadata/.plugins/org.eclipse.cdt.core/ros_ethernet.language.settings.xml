@@ -2699,13 +2699,13 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
