@@ -41,49 +41,49 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  10 .debug_aranges 00001310  00000000  00000000  0001e0a8  2**3
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_info   0003067d  00000000  00000000  0001f3b8  2**0
+ 11 .debug_info   0003067b  00000000  00000000  0001f3b8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_abbrev 0000c330  00000000  00000000  0004fa35  2**0
+ 12 .debug_abbrev 0000c330  00000000  00000000  0004fa33  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_line   00010792  00000000  00000000  0005bd65  2**0
+ 13 .debug_line   00010786  00000000  00000000  0005bd63  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_frame  000042e0  00000000  00000000  0006c4f8  2**2
+ 14 .debug_frame  000042e0  00000000  00000000  0006c4ec  2**2
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_str    000064d2  00000000  00000000  000707d8  2**0
+ 15 .debug_str    000064d2  00000000  00000000  000707cc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_loc    00018626  00000000  00000000  00076caa  2**0
+ 16 .debug_loc    00018626  00000000  00000000  00076c9e  2**0
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_alt_sim_info 00000010  00000000  00000000  0008f2d0  2**2
+ 17 .debug_alt_sim_info 00000010  00000000  00000000  0008f2c4  2**2
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_ranges 000019d8  00000000  00000000  0008f2e0  2**3
+ 18 .debug_ranges 000019d8  00000000  00000000  0008f2d8  2**3
                   CONTENTS, READONLY, DEBUGGING
- 19 .thread_model 00000003  00000000  00000000  0009739e  2**0
+ 19 .thread_model 00000003  00000000  00000000  00097396  2**0
                   CONTENTS, READONLY
- 20 .cpu          00000003  00000000  00000000  000973a1  2**0
+ 20 .cpu          00000003  00000000  00000000  00097399  2**0
                   CONTENTS, READONLY
- 21 .qsys         00000001  00000000  00000000  000973a4  2**0
+ 21 .qsys         00000001  00000000  00000000  0009739c  2**0
                   CONTENTS, READONLY
- 22 .simulation_enabled 00000001  00000000  00000000  000973a5  2**0
+ 22 .simulation_enabled 00000001  00000000  00000000  0009739d  2**0
                   CONTENTS, READONLY
- 23 .sysid_hash   00000004  00000000  00000000  000973a6  2**0
+ 23 .sysid_hash   00000004  00000000  00000000  0009739e  2**0
                   CONTENTS, READONLY
- 24 .sysid_base   00000004  00000000  00000000  000973aa  2**0
+ 24 .sysid_base   00000004  00000000  00000000  000973a2  2**0
                   CONTENTS, READONLY
- 25 .sysid_time   00000004  00000000  00000000  000973ae  2**0
+ 25 .sysid_time   00000004  00000000  00000000  000973a6  2**0
                   CONTENTS, READONLY
- 26 .stderr_dev   00000004  00000000  00000000  000973b2  2**0
+ 26 .stderr_dev   00000004  00000000  00000000  000973aa  2**0
                   CONTENTS, READONLY
- 27 .stdin_dev    00000004  00000000  00000000  000973b6  2**0
+ 27 .stdin_dev    00000004  00000000  00000000  000973ae  2**0
                   CONTENTS, READONLY
- 28 .stdout_dev   00000004  00000000  00000000  000973ba  2**0
+ 28 .stdout_dev   00000004  00000000  00000000  000973b2  2**0
                   CONTENTS, READONLY
- 29 .sopc_system_name 00000006  00000000  00000000  000973be  2**0
+ 29 .sopc_system_name 00000006  00000000  00000000  000973b6  2**0
                   CONTENTS, READONLY
- 30 .quartus_project_dir 0000002e  00000000  00000000  000973c4  2**0
+ 30 .quartus_project_dir 0000002e  00000000  00000000  000973bc  2**0
                   CONTENTS, READONLY
- 31 .jdi          00004268  00000000  00000000  000973f2  2**0
+ 31 .jdi          00004268  00000000  00000000  000973ea  2**0
                   CONTENTS, READONLY
- 32 .sopcinfo     000a711b  00000000  00000000  0009b65a  2**0
+ 32 .sopcinfo     000a711b  00000000  00000000  0009b652  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 08000000 l    d  .entry	00000000 .entry
@@ -17737,11 +17737,8 @@ BaseType_t xNetworkInterfaceInitialise( void )
  80083d8:	010200b4 	movhi	r4,2050
  80083dc:	2128b004 	addi	r4,r4,-23872
  80083e0:	80169380 	call	8016938 <alt_printf>
-	 * blocking transfers enables interrupts that causes the callback to be executed. The callback runs as part
-	 * of the interrupt service routine, and care must be taken to follow the guidelines for acceptable interrupt
-	 * service routine behavior as described in the Nios II Software Developer's Handbook.
-	 * To disable callbacks after registering one, call this routine with 0x0 as the callback argument.
-	 */
+
+	// Set interrupts for the sgdma receive device
 	alt_avalon_sgdma_register_callback( sgdma_rx_dev, (alt_avalon_sgdma_callback) rx_ethernet_isr, 0x00000014, NULL );
  80083e4:	d0a8ae17 	ldw	r2,-23880(gp)
  80083e8:	000f883a 	mov	r7,zero
@@ -17750,11 +17747,9 @@ BaseType_t xNetworkInterfaceInitialise( void )
  80083f4:	29615b04 	addi	r5,r5,-31380
  80083f8:	1009883a 	mov	r4,r2
  80083fc:	80180500 	call	8018050 <alt_avalon_sgdma_register_callback>
-	 * the next descriptor in the chain.
-	 * Descriptors must be in a memory device mastered by the SG-DMA controller's chain read and chain
-	 * write Avalon master ports. Care must be taken to ensure that both *desc and *next point to areas of
-	 * memory mastered by the controller.
-	 */
+
+	// Create new receive sgdma descriptor
+	//===================================================================================================================================
 	alt_avalon_sgdma_construct_stream_to_mem_desc( &rx_descriptor, &rx_descriptor_end, (alt_u32 *)rx_frame, 0, 0 );
  8008400:	d8000015 	stw	zero,0(sp)
  8008404:	000f883a 	mov	r7,zero
@@ -17765,31 +17760,26 @@ BaseType_t xNetworkInterfaceInitialise( void )
  8008418:	01040034 	movhi	r4,4096
  800841c:	21041004 	addi	r4,r4,4160
  8008420:	8017e6c0 	call	8017e6c <alt_avalon_sgdma_construct_stream_to_mem_desc>
-	 * registered with this particular SG-DMA controller, the transfer is set up to issue an interrupt on error,
-	 * EOP, or chain completion. Otherwise, no interrupt is registered and the application developer must
-	 * check for and handle errors and completion. The run bit is cleared before the beginning of the transfer
-	 * and is set to 1 to restart a new descriptor chain.
-	 */
+
+	// Set up of sgdma receive descriptor
+	//===================================================================================================================================
 	alt_avalon_sgdma_do_async_transfer( sgdma_rx_dev, &rx_descriptor );
  8008424:	d0a8ae17 	ldw	r2,-23880(gp)
  8008428:	01440034 	movhi	r5,4096
  800842c:	29441004 	addi	r5,r5,4160
  8008430:	1009883a 	mov	r4,r2
  8008434:	8017b400 	call	8017b40 <alt_avalon_sgdma_do_async_transfer>
+
 	// Configura Triple Speed Ethernet
 	//===================================================================================================================================
-	/*
-	 * Triple-speed Ethernet MegaCore base address
-	 */
-	volatile int * tse = (int *) 0x10004000;
+	// Triple-speed Ethernet MegaCore base address
+	volatile int *tse = (int *) TSE_BASE;
  8008438:	00840034 	movhi	r2,4096
  800843c:	10900004 	addi	r2,r2,16384
  8008440:	e0bfff15 	stw	r2,-4(fp)
-	 * 6-byte MAC primary address. The first four most significant
-	 * bytes of the MAC address occupy mac_0 (0x03) in reverse order.
-	 * The last two bytes of the MAC address occupy the two least
-	 * significant bytes of mac_1 (0x04)in reverse order.0
-	 */
+
+	// Initialize the MAC address
+	//----------------------------------------------------------------------------------------
 	*(tse + 3) = 0x116E6001;
  8008444:	e0bfff17 	ldw	r2,-4(fp)
  8008448:	10c00304 	addi	r3,r2,12
@@ -17803,7 +17793,7 @@ BaseType_t xNetworkInterfaceInitialise( void )
  8008464:	10c00015 	stw	r3,0(r2)
 
 	// Specify the addresses of the PHY devices to be accessed through MDIO interface
-	//===================================================================================================================================v
+	//----------------------------------------------------------------------------------------
 	*(tse + 0x0F) = 0x10;
  8008468:	e0bfff17 	ldw	r2,-4(fp)
  800846c:	10800f04 	addi	r2,r2,60
@@ -17865,6 +17855,7 @@ BaseType_t xNetworkInterfaceInitialise( void )
 		;
 
 	// Enable read and write transfers, gigabit Ethernet operation, and CRC forwarding
+	//----------------------------------------------------------------------------------------
 	*(tse + 2) = *(tse + 2) | 0x0000004B;
  8008504:	e0bfff17 	ldw	r2,-4(fp)
  8008508:	10800204 	addi	r2,r2,8
@@ -17911,11 +17902,7 @@ void rx_ethernet_isr (void *context)
  8008574:	df000215 	stw	fp,8(sp)
  8008578:	df000204 	addi	fp,sp,8
  800857c:	e13fff15 	stw	r4,-4(fp)
-	/*
-	 * Description:
-	 * Checks a descriptor previously owned by hardware for any errors reported in a previous transfer. The
-	 * routine reports: errors reported by the SG-DMA controller, the buffer in use.
-	 */
+	// Wait until receive descriptor transfer is complet
 	while (alt_avalon_sgdma_check_descriptor_status(&rx_descriptor) != 0);
  8008580:	0001883a 	nop
  8008584:	01040034 	movhi	r4,4096
@@ -17928,11 +17915,10 @@ void rx_ethernet_isr (void *context)
  8008598:	000b883a 	mov	r5,zero
  800859c:	1009883a 	mov	r4,r2
  80085a0:	8004b580 	call	8004b58 <xQueueGiveFromISR>
-	 * the next descriptor in the chain.
-	 * Descriptors must be in a memory device mastered by the SG-DMA controller's chain read and chain
-	 * write Avalon master ports. Care must be taken to ensure that both *desc and *next point to areas of
-	 * memory mastered by the controller.
-	 */
+
+
+	// Create new receive sgdma descriptor
+	//===================================================================================================================================
 	alt_avalon_sgdma_construct_stream_to_mem_desc( &rx_descriptor, &rx_descriptor_end, (alt_u32 *)rx_frame, 0, 0 );
  80085a4:	d8000015 	stw	zero,0(sp)
  80085a8:	000f883a 	mov	r7,zero
@@ -17943,11 +17929,9 @@ void rx_ethernet_isr (void *context)
  80085bc:	01040034 	movhi	r4,4096
  80085c0:	21041004 	addi	r4,r4,4160
  80085c4:	8017e6c0 	call	8017e6c <alt_avalon_sgdma_construct_stream_to_mem_desc>
-	 * registered with this particular SG-DMA controller, the transfer is set up to issue an interrupt on error,
-	 * EOP, or chain completion. Otherwise, no interrupt is registered and the application developer must
-	 * check for and handle errors and completion. The run bit is cleared before the beginning of the transfer
-	 * and is set to 1 to restart a new descriptor chain.
-	 */
+
+	// Set up of sgdma receive descriptor
+	//===================================================================================================================================
 	alt_avalon_sgdma_do_async_transfer( sgdma_rx_dev, &rx_descriptor );
  80085c8:	d0a8ae17 	ldw	r2,-23880(gp)
  80085cc:	01440034 	movhi	r5,4096

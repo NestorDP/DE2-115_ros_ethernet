@@ -2,10 +2,10 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Nov 25, 2019 6:50:04 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1574718604189</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Feb 19, 2020 10:03:23 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1582160603881</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet_bsp</BspGeneratedLocation>
-        <BspSettingsFile>./settings.bsp</BspSettingsFile>
+        <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../NiosII.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>cpu</Cpu>

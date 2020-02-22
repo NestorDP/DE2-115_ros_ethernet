@@ -233,7 +233,8 @@ BaseType_t xNetworkInterfaceInitialise( void )
 	// Software reset the second PHY chip and wait
 	//----------------------------------------------------------------------------------------
 	*(tse + 0xA0) = *(tse + 0xA0) | 0x8000;
-	while ( *(tse + 0xA0) & 0x8000  );
+	while ( *(tse + 0xA0) & 0x8000  )
+		;
 
 	// Enable read and write transfers, gigabit Ethernet operation, and CRC forwarding
 	//----------------------------------------------------------------------------------------
