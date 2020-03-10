@@ -1,9 +1,9 @@
-16:10:01 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+22:51:17 **** Incremental Build of configuration Nios II for project ros_ethernet ****
 make all 
 Info: Building ../ros_ethernet_bsp/
 make --no-print-directory -C ../ros_ethernet_bsp/
 [BSP build complete]
 [ros_ethernet build complete]
 
-16:10:01 Build Finished (took 125ms)
+22:51:17 Build Finished (took 166ms)
 
