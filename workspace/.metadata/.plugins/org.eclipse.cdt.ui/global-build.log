@@ -840,3 +840,15 @@ Info: Building ../ros_ethernet_bsp/
 make --no-print-directory -C ../ros_ethernet_bsp/
 [BSP build complete]
 [ros_ethernet build complete]
+22:14:39 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+[ros_ethernet build complete]
+22:14:41 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+[ros_ethernet build complete]

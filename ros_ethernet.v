@@ -98,34 +98,34 @@ module ros_ethernet(
 	);
 	 
 	 NiosII u0 (
-		.clk_clk                             	(CLOCK_50),         //                              clk.clk
-		.port_gpio_0_export                  	(GPIO[31:0]),       //                      port_gpio_0.export
-		.port_key_export                     	(KEY[1:0]),         //                         port_key.export
-		.port_led_export                     	(LEDG[7:0]),        //                         port_led.export
-		.port_sw_export                      	(SW[3:0]),          //                          port_sw.export
-		.ram_clk_clk                         	(DRAM_CLK),         //                          ram_clk.clk
-		.reset_reset_n                       	(KEY[3]),           //                            reset.reset_n
-		.sdram_addr         					(DRAM_ADDR),  		// 					 		  sdram.addr
-    	.sdram_ba           					(DRAM_BA),    		// 							       .ba
-    	.sdram_cas_n        					(DRAM_CAS_N), 		// 							       .cas_n
-    	.sdram_cke          					(DRAM_CKE),   		// 							       .cke
-    	.sdram_cs_n         					(DRAM_CS_N),  		// 							       .cs_n
-    	.sdram_dq           					(DRAM_DQ),    		// 							       .dq
-    	.sdram_dqm          					(DRAM_DQM),   		// 							       .dqm
-    	.sdram_ras_n        					(DRAM_RAS_N), 		// 							       .ras_n
-    	.sdram_we_n         					(DRAM_WE_N),  		// 							       .we_n
-    	.uart_rxd           					(UART_RXD),   		// 							  uart.rxd
-    	.uart_txd           					(UART_TXD),    		// 							      .txd
+		.clk_clk                             	(CLOCK_50),       //                             clk.clk
+		.port_gpio_0_export                  	(GPIO[31:0]),     //                     port_gpio_0.export
+		.port_key_export                     	(KEY[1:0]),       //                        port_key.export
+		.port_led_export                     	(LEDG[7:0]),      //                        port_led.export
+		.port_sw_export                      	(SW[3:0]),        //                         port_sw.export
+		.ram_clk_clk                         	(DRAM_CLK),       //                         ram_clk.clk
+		.reset_reset_n                       	(KEY[3]),         //                           reset.reset_n
+		.sdram_addr         							(DRAM_ADDR),  		// 					 		  	  sdram.addr
+    	.sdram_ba           							(DRAM_BA),    		// 							       	 .ba
+    	.sdram_cas_n        							(DRAM_CAS_N), 		// 							       	 .cas_n
+    	.sdram_cke          							(DRAM_CKE),   		// 							      	 .cke
+    	.sdram_cs_n         							(DRAM_CS_N),  		// 							       	 .cs_n
+    	.sdram_dq           							(DRAM_DQ),    		// 							       	 .dq
+    	.sdram_dqm          							(DRAM_DQM),   		// 							       	 .dqm
+    	.sdram_ras_n        							(DRAM_RAS_N), 		// 							       	 .ras_n
+    	.sdram_we_n         							(DRAM_WE_N),  		// 							       	 .we_n
+    	.uart_rxd           							(UART_RXD),   		// 							  		uart.rxd
+    	.uart_txd           							(UART_TXD),    	// 							      	 .txd
 		.tse_pcs_mac_tx_clock_connection_clk 	(tx_clk), 			// tse_pcs_mac_tx_clock_connection.clk
 		.tse_pcs_mac_rx_clock_connection_clk 	(ENET1_RX_CLK), 	// tse_pcs_mac_rx_clock_connection.clk
-		.tse_mac_mdio_connection_mdc         	(mdc),         		//         tse_mac_mdio_connection.mdc
-		.tse_mac_mdio_connection_mdio_in     	(mdio_in),     		//                                .mdio_in
-		.tse_mac_mdio_connection_mdio_out    	(mdio_out),    		//                                .mdio_out
+		.tse_mac_mdio_connection_mdc         	(mdc),         	//         tse_mac_mdio_connection.mdc
+		.tse_mac_mdio_connection_mdio_in     	(mdio_in),     	//                                .mdio_in
+		.tse_mac_mdio_connection_mdio_out    	(mdio_out),    	//                                .mdio_out
 		.tse_mac_mdio_connection_mdio_oen    	(mdio_oen),     	//                                .mdio_oen
-		.tse_mac_rgmii_connection_rgmii_in   	(ENET1_RX_DATA),   	//        tse_mac_rgmii_connection.rgmii_in
-		.tse_mac_rgmii_connection_rgmii_out  	(ENET1_TX_DATA),  	//                                .rgmii_out
-		.tse_mac_rgmii_connection_rx_control 	(ENET1_RX_DV), 		//                                .rx_control
-		.tse_mac_rgmii_connection_tx_control 	(ENET1_TX_EN), 		//                                .tx_controL
+		.tse_mac_rgmii_connection_rgmii_in   	(ENET1_RX_DATA),  //        tse_mac_rgmii_connection.rgmii_in
+		.tse_mac_rgmii_connection_rgmii_out  	(ENET1_TX_DATA),  //                                .rgmii_out
+		.tse_mac_rgmii_connection_rx_control 	(ENET1_RX_DV), 	//                                .rx_control
+		.tse_mac_rgmii_connection_tx_control 	(ENET1_TX_EN), 	//                                .tx_controL
 		.tse_mac_status_connection_eth_mode  	(eth_mode),  		//       tse_mac_status_connection.eth_mode
 		.tse_mac_status_connection_ena_10    	(ena_10),    		//                                .ena_10
 	 );
