@@ -142,7 +142,6 @@ ACDS_VERSION := 18.1
 ELF := ros_ethernet.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS += hello_world.c
 C_SRCS += FreeRTOS/Common_Demo_Tasks/BlockQ.c
 C_SRCS += FreeRTOS/Common_Demo_Tasks/GenQTest.c
 C_SRCS += FreeRTOS/Common_Demo_Tasks/PollQ.c
@@ -174,26 +173,7 @@ C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c
 C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c
 C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c
 C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/ethernet_phy.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/gmac.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/LPC17xx/NetworkInterface.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/LPC18xx/NetworkInterface.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/SH2A/NetworkInterface.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32F7xx/NetworkInterface.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32F7xx/stm32f7xx_hal_eth.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/NetworkInterface.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/STM32Fxx/stm32f4xx_hal_eth.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/WinPCap/FaultInjection.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/WinPCap/NetworkInterface.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Zynq/NetworkInterface.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Zynq/uncached_memory.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Zynq/x_emacpsif_dma.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Zynq/x_emacpsif_hw.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Zynq/x_emacpsif_physpeed.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ksz8851snl/NetworkInterface.c
-C_SRCS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ksz8851snl/ksz8851snl.c
+C_SRCS += ros_ethernet.c
 CXX_SRCS :=
 ASM_SRCS := FreeRTOS/Source/portable/GCC/NiosII/port_asm.S
 
@@ -241,6 +221,7 @@ APP_INCLUDE_DIRS += FreeRTOS/ParTest
 APP_INCLUDE_DIRS += FreeRTOS/Source/portable/MenMang
 APP_INCLUDE_DIRS += FreeRTOS-Plus/FreeRTOS-Plus-TCP
 APP_INCLUDE_DIRS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC
+APP_INCLUDE_DIRS += FreeRTOS-Plus/FreeRTOS-Plus-TCP/include
 APP_LIBRARY_DIRS :=
 APP_LIBRARY_NAMES :=
 

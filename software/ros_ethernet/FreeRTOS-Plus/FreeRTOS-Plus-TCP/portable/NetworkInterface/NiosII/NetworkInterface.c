@@ -33,8 +33,8 @@
 
 // Function Prototypes
 //---------------------------------------------------------------------------------------------------------------------
-static void 	prvEMACHandlerTask( void *pvParameters );	// A deferred interrupt handler task that processes
-void 		rx_ethernet_isr( void *context );		// Rotina de interrupt da porta ethernet
+static void prvEMACHandlerTask( void *pvParameters );	// A deferred interrupt handler task that processes
+void 		rx_ethernet_isr( void *context );			// Rotina de interrupt da porta ethernet
 
 
 // Create sgdma transmit and receive devices
@@ -45,7 +45,7 @@ alt_sgdma_dev * sgdma_rx_dev;
 
 // Allocate descriptors in the descriptor_memory (onchip memory)
 //---------------------------------------------------------------------------------------------------------------------
-alt_sgdma_descriptor tx_descriptor	__attribute__ (( section ( ".descriptor_memory" )));
+alt_sgdma_descriptor tx_descriptor		__attribute__ (( section ( ".descriptor_memory" )));
 alt_sgdma_descriptor tx_descriptor_end	__attribute__ (( section ( ".descriptor_memory" )));
 
 alt_sgdma_descriptor rx_descriptor  	__attribute__ (( section ( ".descriptor_memory" )));
@@ -58,11 +58,11 @@ unsigned int text_length;
 
 // Create a transmit frame
 unsigned char tx_frame[1024] = {
-	0x00,0x00, 			// for 32-bit alignment
+	0x00,0x00, 						// for 32-bit alignment
 	0xFF,0xFF,0xFF,0xFF,0xFF,0xFF, 	// destination address (broadcast)
 	0x01,0x60,0x6E,0x11,0x02,0x0F, 	// source address
-	0x00,0x2E, 			// length or type of the payload data
-	'\0' 				// payload data (ended with termination character)
+	0x00,0x2E, 						// length or type of the payload data
+	'\0' 							// payload data (ended with termination character)
 };
 
 // Create a receive frame
@@ -72,76 +72,7 @@ unsigned char rx_frame[2048] = { 0 };
 SemaphoreHandle_t xEMACRxEventSemaphore = NULL;
 
 
-//=====================================================================================================================
-// Main Function
-//=====================================================================================================================
-int main()
-{
-	// Configure any hardware required for this demo.
-	vParTestInitialise();
 
-	// Initialize the MAC hardware
-	xNetworkInterfaceInitialise();
-
-	printf("Hello from Nios II!\n");
-
-	// prvPrintTask1 uses sprintf so requires more stack.
-	xTaskCreate( prvPrintTask1, "Task1", configMINIMAL_STACK_SIZE, NULL, mainTASK1_PRIORITY, NULL );
-
-	// prvPrintTask2 uses sprintf so requires more stack.
-	xTaskCreate( prvPrintTask2, "Task2", configMINIMAL_STACK_SIZE, NULL, mainTASK2_PRIORITY, NULL );
-
-	// prvPrintTask2 uses sprintf so requires more stack.
-	xTaskCreate( prvEMACHandlerTask, "interrupt", configMINIMAL_STACK_SIZE, NULL, 1, NULL );
-
-    	// Finally start the scheduler
-	vTaskStartScheduler();
-
-	// Will only reach here if there is insufficient heap available to start the scheduler.
-	for( ;; );
-
-  return 0;
-}
-
-//=====================================================================================================================
-// Tasks Functions
-//=====================================================================================================================
-static void prvPrintTask1( void *pvParameters )
-{
-	FILE* stream_UART;
-	stream_UART = fopen ("/dev/uart", "w");
-	if (stream_UART == NULL)
-	{
-		printf("Nao foi criada stream UART");
-	}
-	for( ;; )
-	{
-		// Wait until it is time to run the tests again.
-		vTaskDelay( mainTASK1_PERIOD / portTICK_PERIOD_MS);
-
-        // Print out an message
-        printf( "NIOS II Task1 from jtag\r\n" );
-        fprintf(stream_UART, "NIOS II Task1 from uart\r\n ");
-
-        // Control LED 1 DE0-NANO
-        vParTestToggleLED(1);
-	}
-}
-
-static void prvPrintTask2( void *pvParameters )
-{
-	for( ;; )
-	{
-		/* Wait until it is time to run the tests again. */
-		vTaskDelay( mainTASK2_PERIOD / portTICK_PERIOD_MS);
-
-        /* Print out an message */
-        printf( "NIOS II Task2\r\n" );
-
-        //Control LED 2 DE0-NANO
-        vParTestToggleLED(2);
-	}
-}
 
 //=====================================================================================================================
 // Functions

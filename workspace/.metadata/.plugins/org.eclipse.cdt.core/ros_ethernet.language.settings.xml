@@ -1420,6 +1420,57 @@
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
 					<resource project-relative-path="HAL/src/alt_uncached_free.c">
 						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
@@ -1864,6 +1915,57 @@
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
 					<resource project-relative-path="drivers/src/altera_avalon_jtag_uart_fd.c">
 						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
@@ -1873,6 +1975,57 @@
 						</entry>
 						<entry kind="includePath" name="/ros_ethernet_bsp">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
 						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
@@ -2146,6 +2299,57 @@
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
+					<resource project-relative-path="ros_ethernet.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
 					<resource project-relative-path="HAL/src/alt_dma_rxchan_open.c">
 						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
@@ -2236,6 +2440,57 @@
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
 					<resource project-relative-path="HAL/src/alt_dma_txchan_open.c">
 						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
@@ -2281,6 +2536,57 @@
 						</entry>
 						<entry kind="includePath" name="/ros_ethernet_bsp">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
 						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
@@ -2998,6 +3304,108 @@
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
 					<resource project-relative-path="HAL/src/alt_fd_unlock.c">
 						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
@@ -3268,6 +3676,57 @@
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
 					<resource project-relative-path="HAL/src/alt_tick.c">
 						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
@@ -3295,6 +3754,57 @@
 						</entry>
 						<entry kind="includePath" name="/ros_ethernet_bsp">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
 						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
@@ -3358,6 +3868,57 @@
 						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
 						<entry kind="macro" name="__hal__" value=""/>
 					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
 					<resource project-relative-path="HAL/src/alt_iic.c">
 						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
@@ -3408,6 +3969,57 @@
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -3991,6 +4603,57 @@
 						</entry>
 						<entry kind="includePath" name="/ros_ethernet_bsp">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
+						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
+						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
+						<entry kind="macro" name="ALTERA_TRIPLE_SPEED_MAC" value=""/>
+						<entry kind="macro" name="ALT_NO_INSTRUCTION_EMULATION" value=""/>
+						<entry kind="macro" name="ALT_SINGLE_THREADED" value=""/>
+						<entry kind="macro" name="__hal__" value=""/>
+					</resource>
+					<resource project-relative-path="FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c">
+						<entry kind="includePath" name="/ros_ethernet_bsp/drivers/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp/HAL/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/ros_ethernet_bsp">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Common_Demo_Tasks/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
 						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>

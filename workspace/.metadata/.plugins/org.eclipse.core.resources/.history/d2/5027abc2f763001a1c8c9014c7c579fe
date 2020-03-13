@@ -1,0 +1,30 @@
+/*
+ * FreeRTOSIPConfig.h
+ *
+ *  Created on: Mar 11, 2020
+ *      Author: nestor
+ */
+
+#ifndef FREERTOS_IP_CONFIG_H
+#define FREERTOS_IP_CONFIG_H
+
+#define ipconfigUSE_TCP_WIN       0
+#define ipconfigTCP_TX_BUFFER_LENGTH   ( 2 * ipconfigTCP_MSS )
+#define ipconfigTCP_RX_BUFFER_LENGTH   ( 2 * ipconfigTCP_MSS )
+
+#define ipconfigNETWORK_MTU   1500
+#define ipconfigTCP_MSS       522
+
+#define ipconfigEVENT_QUEUE_LENGTH 12
+
+#define ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS  2
+#define ipconfigIP_TASK_PRIORITY configMAX_PRIORITIES - 1
+
+#define ipconfigARP_CACHE_ENTRIES 15
+#define ipconfigARP_CACHE_ENTRIES 5
+#define ipconfigMAX_ARP_RETRANSMISSIONS 5
+#define ipconfigMAX_ARP_AGE 150
+
+
+
+#endif /* FREERTOS_IP_CONFIG_H */

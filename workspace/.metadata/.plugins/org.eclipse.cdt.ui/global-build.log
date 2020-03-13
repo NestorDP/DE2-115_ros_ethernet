@@ -852,3 +852,935 @@ Info: Building ../ros_ethernet_bsp/
 make --no-print-directory -C ../ros_ethernet_bsp/
 [BSP build complete]
 [ros_ethernet build complete]
+21:02:05 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:25: fatal error: FreeRTOS_IP.h: No such file or directory
+ #include "FreeRTOS_IP.h"
+                         ^
+Makefile:835: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+compilation terminated.
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+21:02:07 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:25: fatal error: FreeRTOS_IP.h: No such file or directory
+ #include "FreeRTOS_IP.h"
+                         ^
+compilation terminated.
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+Makefile:835: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+21:03:32 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:0:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:30: fatal error: FreeRTOSIPConfig.h: No such file or directory
+ #include "FreeRTOSIPConfig.h"
+                              ^
+compilation terminated.
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+21:03:33 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:0:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:30: fatal error: FreeRTOSIPConfig.h: No such file or directory
+ #include "FreeRTOSIPConfig.h"
+                              ^
+compilation terminated.
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+21:06:35 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:0:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:30: fatal error: FreeRTOSIPConfig.h: No such file or directory
+ #include "FreeRTOSIPConfig.h"
+                              ^
+compilation terminated.
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+21:06:36 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:0:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:30: fatal error: FreeRTOSIPConfig.h: No such file or directory
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+ #include "FreeRTOSIPConfig.h"
+                              ^
+compilation terminated.
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+21:08:19 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:19:49: error: token "[" is not valid in preprocessor expressions
+ #define ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS  [2]
+                                                 ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:93:38: note: in expansion of macro 'ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS'
+ #if ( ipconfigEVENT_QUEUE_LENGTH < ( ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS + 5 ) )
+                                      ^
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:38:0:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_Sockets.h:40:3: error: #error FreeRTOSIPConfig.h has not been included yet
+  #error FreeRTOSIPConfig.h has not been included yet
+   ^
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:19:49: error: expected expression before '[' token
+ #define ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS  [2]
+                                                 ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/NetworkInterface.h:36:89: note: in expansion of macro 'ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS'
+ void vNetworkInterfaceAllocateRAMToBuffers( NetworkBufferDescriptor_t pxNetworkBuffers[ ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS ] );
+                                                                                         ^
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+21:08:20 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:19:49: error: token "[" is not valid in preprocessor expressions
+ #define ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS  [2]
+                                                 ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:93:38: note: in expansion of macro 'ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS'
+ #if ( ipconfigEVENT_QUEUE_LENGTH < ( ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS + 5 ) )
+                                      ^
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:38:0:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_Sockets.h:40:3: error: #error FreeRTOSIPConfig.h has not been included yet
+  #error FreeRTOSIPConfig.h has not been included yet
+   ^
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:19:49: error: expected expression before '[' token
+ #define ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS  [2]
+                                                 ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/NetworkInterface.h:36:89: note: in expansion of macro 'ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS'
+ void vNetworkInterfaceAllocateRAMToBuffers( NetworkBufferDescriptor_t pxNetworkBuffers[ ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS ] );
+                                                                                         ^
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+21:09:46 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:94:3: error: #error The ipconfigEVENT_QUEUE_LENGTH parameter must be at least ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS + 5
+  #error The ipconfigEVENT_QUEUE_LENGTH parameter must be at least ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS + 5
+   ^
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+21:09:47 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:94:3: error: #error The ipconfigEVENT_QUEUE_LENGTH parameter must be at least ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS + 5
+  #error The ipconfigEVENT_QUEUE_LENGTH parameter must be at least ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS + 5
+   ^
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+21:11:58 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:51:3: error: #error ipconfigNETWORK_MTU needs to be at least 586 to use DHCP
+  #error ipconfigNETWORK_MTU needs to be at least 586 to use DHCP
+   ^
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:35:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c: In function 'vDHCPProcess':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:362:34: note: in expansion of macro 'ipconfigRAND32'
+      xDHCPData.ulTransactionId = ipconfigRAND32( );
+                                  ^
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o' failed
+21:12:00 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:51:3: error: #error ipconfigNETWORK_MTU needs to be at least 586 to use DHCP
+  #error ipconfigNETWORK_MTU needs to be at least 586 to use DHCP
+   ^
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:35:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c: In function 'vDHCPProcess':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:362:34: note: in expansion of macro 'ipconfigRAND32'
+      xDHCPData.ulTransactionId = ipconfigRAND32( );
+                                  ^
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o' failed
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o] Error 1
+21:13:45 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:22:0: warning: "ipconfigNETWORK_MTU" redefined
+ #define ipconfigNETWORK_MTU 1500
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:15:0: note: this is the location of the previous definition
+ #define ipconfigNETWORK_MTU   576
+ ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:35:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:22:0: warning: "ipconfigNETWORK_MTU" redefined
+ #define ipconfigNETWORK_MTU 1500
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:15:0: note: this is the location of the previous definition
+ #define ipconfigNETWORK_MTU   576
+ ^
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:35:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c: In function 'vDHCPProcess':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:362:34: note: in expansion of macro 'ipconfigRAND32'
+      xDHCPData.ulTransactionId = ipconfigRAND32( );
+                                  ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:22:0: warning: "ipconfigNETWORK_MTU" redefined
+ #define ipconfigNETWORK_MTU 1500
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:15:0: note: this is the location of the previous definition
+ #define ipconfigNETWORK_MTU   576
+ ^
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c: In function 'FreeRTOS_gethostbyname':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:449:31: note: in expansion of macro 'ipconfigRAND32'
+   xIdentifier = ( TickType_t )ipconfigRAND32( );
+                               ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:38:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:22:0: warning: "ipconfigNETWORK_MTU" redefined
+ #define ipconfigNETWORK_MTU 1500
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:15:0: note: this is the location of the previous definition
+ #define ipconfigNETWORK_MTU   576
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c: In function 'FreeRTOS_IPInit':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: error: 'ipconfigIP_TASK_STACK_SIZE_WORDS' undeclared (first use in this function)
+     xReturn = xTaskCreate( prvIPTask, "IP-task", ( uint16_t )ipconfigIP_TASK_STACK_SIZE_WORDS, NULL, ( UBaseType_t )ipconfigIP_TASK_PRIORITY, &xIPTaskHandle );
+                                                              ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: note: each undeclared identifier is reported only once for each function it appears in
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:117: error: 'ipconfigIP_TASK_PRIORITY' undeclared (first use in this function)
+     xReturn = xTaskCreate( prvIPTask, "IP-task", ( uint16_t )ipconfigIP_TASK_STACK_SIZE_WORDS, NULL, ( UBaseType_t )ipconfigIP_TASK_PRIORITY, &xIPTaskHandle );
+                                                                                                                     ^
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o' failed
+21:13:47 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:38:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:22:0: warning: "ipconfigNETWORK_MTU" redefined
+ #define ipconfigNETWORK_MTU 1500
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:15:0: note: this is the location of the previous definition
+ #define ipconfigNETWORK_MTU   576
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c: In function 'FreeRTOS_IPInit':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: error: 'ipconfigIP_TASK_STACK_SIZE_WORDS' undeclared (first use in this function)
+     xReturn = xTaskCreate( prvIPTask, "IP-task", ( uint16_t )ipconfigIP_TASK_STACK_SIZE_WORDS, NULL, ( UBaseType_t )ipconfigIP_TASK_PRIORITY, &xIPTaskHandle );
+                                                              ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: note: each undeclared identifier is reported only once for each function it appears in
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:117: error: 'ipconfigIP_TASK_PRIORITY' undeclared (first use in this function)
+     xReturn = xTaskCreate( prvIPTask, "IP-task", ( uint16_t )ipconfigIP_TASK_STACK_SIZE_WORDS, NULL, ( UBaseType_t )ipconfigIP_TASK_PRIORITY, &xIPTaskHandle );
+                                                                                                                     ^
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o' failed
+21:19:19 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:35:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c: In function 'vDHCPProcess':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:362:34: note: in expansion of macro 'ipconfigRAND32'
+      xDHCPData.ulTransactionId = ipconfigRAND32( );
+                                  ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c: In function 'FreeRTOS_gethostbyname':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:449:31: note: in expansion of macro 'ipconfigRAND32'
+   xIdentifier = ( TickType_t )ipconfigRAND32( );
+                               ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c: In function 'FreeRTOS_IPInit':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: error: 'ipconfigIP_TASK_STACK_SIZE_WORDS' undeclared (first use in this function)
+     xReturn = xTaskCreate( prvIPTask, "IP-task", ( uint16_t )ipconfigIP_TASK_STACK_SIZE_WORDS, NULL, ( UBaseType_t )ipconfigIP_TASK_PRIORITY, &xIPTaskHandle );
+                                                              ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o' failed
+21:19:20 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c: In function 'FreeRTOS_IPInit':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: error: 'ipconfigIP_TASK_STACK_SIZE_WORDS' undeclared (first use in this function)
+     xReturn = xTaskCreate( prvIPTask, "IP-task", ( uint16_t )ipconfigIP_TASK_STACK_SIZE_WORDS, NULL, ( UBaseType_t )ipconfigIP_TASK_PRIORITY, &xIPTaskHandle );
+                                                              ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o' failed
+21:22:22 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:24:0: warning: "ipconfigARP_CACHE_ENTRIES" redefined
+ #define ipconfigARP_CACHE_ENTRIES 5
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:23:0: note: this is the location of the previous definition
+ #define ipconfigARP_CACHE_ENTRIES 15
+ ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:35:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:24:0: warning: "ipconfigARP_CACHE_ENTRIES" redefined
+ #define ipconfigARP_CACHE_ENTRIES 5
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:23:0: note: this is the location of the previous definition
+ #define ipconfigARP_CACHE_ENTRIES 15
+ ^
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:35:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c: In function 'vDHCPProcess':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:362:34: note: in expansion of macro 'ipconfigRAND32'
+      xDHCPData.ulTransactionId = ipconfigRAND32( );
+                                  ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:24:0: warning: "ipconfigARP_CACHE_ENTRIES" redefined
+ #define ipconfigARP_CACHE_ENTRIES 5
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:23:0: note: this is the location of the previous definition
+ #define ipconfigARP_CACHE_ENTRIES 15
+ ^
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c: In function 'FreeRTOS_gethostbyname':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:449:31: note: in expansion of macro 'ipconfigRAND32'
+   xIdentifier = ( TickType_t )ipconfigRAND32( );
+                               ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:38:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:24:0: warning: "ipconfigARP_CACHE_ENTRIES" redefined
+ #define ipconfigARP_CACHE_ENTRIES 5
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:23:0: note: this is the location of the previous definition
+ #define ipconfigARP_CACHE_ENTRIES 15
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c: In function 'FreeRTOS_IPInit':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: error: 'ipconfigIP_TASK_STACK_SIZE_WORDS' undeclared (first use in this function)
+     xReturn = xTaskCreate( prvIPTask, "IP-task", ( uint16_t )ipconfigIP_TASK_STACK_SIZE_WORDS, NULL, ( UBaseType_t )ipconfigIP_TASK_PRIORITY, &xIPTaskHandle );
+                                                              ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o' failed
+21:22:23 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:38:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:24:0: warning: "ipconfigARP_CACHE_ENTRIES" redefined
+ #define ipconfigARP_CACHE_ENTRIES 5
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfig.h:23:0: note: this is the location of the previous definition
+ #define ipconfigARP_CACHE_ENTRIES 15
+ ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c: In function 'FreeRTOS_IPInit':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: error: 'ipconfigIP_TASK_STACK_SIZE_WORDS' undeclared (first use in this function)
+     xReturn = xTaskCreate( prvIPTask, "IP-task", ( uint16_t )ipconfigIP_TASK_STACK_SIZE_WORDS, NULL, ( UBaseType_t )ipconfigIP_TASK_PRIORITY, &xIPTaskHandle );
+                                                              ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1003:62: note: each undeclared identifier is reported only once for each function it appears in
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o' failed
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o] Error 1
+21:24:06 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:35:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c: In function 'vDHCPProcess':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:362:34: note: in expansion of macro 'ipconfigRAND32'
+      xDHCPData.ulTransactionId = ipconfigRAND32( );
+                                  ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c: In function 'FreeRTOS_gethostbyname':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:449:31: note: in expansion of macro 'ipconfigRAND32'
+   xIdentifier = ( TickType_t )ipconfigRAND32( );
+                               ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_UDP_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c: In function 'prvGetPrivatePortNumber':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1640:18: note: in expansion of macro 'ipconfigRAND32'
+   ulRandomSeed = ipconfigRAND32( );
+                  ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.c:47:0:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/instance/gmac.h:47:22: fatal error: compiler.h: No such file or directory
+ #include "compiler.h"
+                      ^
+compilation terminated.
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.o] Error 1
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.o' failed
+21:24:09 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.c:47:0:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/instance/gmac.h:47:22: fatal error: compiler.h: No such file or directory
+Makefile:836: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.o' failed
+ #include "compiler.h"
+                      ^
+compilation terminated.
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/ATSAM4E/NetworkInterface.o] Error 1
+21:27:49 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:35:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c: In function 'vDHCPProcess':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.c:362:34: note: in expansion of macro 'ipconfigRAND32'
+      xDHCPData.ulTransactionId = ipconfigRAND32( );
+                                  ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c: In function 'FreeRTOS_gethostbyname':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.c:449:31: note: in expansion of macro 'ipconfigRAND32'
+   xIdentifier = ( TickType_t )ipconfigRAND32( );
+                               ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_UDP_IP.h:35:0,
+                 from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:37:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c: In function 'prvGetPrivatePortNumber':
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOSIPConfigDefaults.h:258:27: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  #define ipconfigRAND32() rand()
+                           ^
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1640:18: note: in expansion of macro 'ipconfigRAND32'
+   ulRandomSeed = ipconfigRAND32( );
+                  ^
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.c
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c:25:25: fatal error: phyHandling.h: No such file or directory
+ #include "phyHandling.h"
+                         ^
+compilation terminated.
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.o] Error 1
+Makefile:833: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.o' failed
+21:27:51 **** Incremental Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.c:25:25: fatal error: phyHandling.h: No such file or directory
+ #include "phyHandling.h"
+                         ^
+compilation terminated.
+Makefile:833: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.o' failed
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/NetworkInterface/Common/phyHandling.o] Error 1
+21:30:04 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling ros_ethernet.c to obj/default/ros_ethernet.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/ros_ethernet.o ros_ethernet.c
+ros_ethernet.c: In function 'main':
+ros_ethernet.c:67:2: warning: implicit declaration of function 'xNetworkInterfaceInitialise' [-Wimplicit-function-declaration]
+  xNetworkInterfaceInitialise();
+  ^
+Info: Linking ros_ethernet.elf
+nios2-elf-g++  -T'../ros_ethernet_bsp//linker.x' -msys-crt0='../ros_ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ros_ethernet_bsp/   -Wl,-Map=ros_ethernet.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ros_ethernet.elf obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o obj/default/FreeRTOS/Common_Demo_Tasks/GenQTest.o obj/default/FreeRTOS/Common_Demo_Tasks/PollQ.o obj/default/FreeRTOS/Common_Demo_Tasks/QPeek.o obj/default/FreeRTOS/Common_Demo_Tasks/blocktim.o obj/default/FreeRTOS/Common_Demo_Tasks/comtest.o obj/default/FreeRTOS/Common_Demo_Tasks/countsem.o obj/default/FreeRTOS/Common_Demo_Tasks/death.o obj/default/FreeRTOS/Common_Demo_Tasks/dynamic.o obj/default/FreeRTOS/Common_Demo_Tasks/flash.o obj/default/FreeRTOS/Common_Demo_Tasks/integer.o obj/default/FreeRTOS/Common_Demo_Tasks/recmutex.o obj/default/FreeRTOS/Common_Demo_Tasks/semtest.o obj/default/FreeRTOS/ParTest/ParTest.o obj/default/FreeRTOS/Source/list.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port.o obj/default/FreeRTOS/Source/portable/MenMang/heap_4.o obj/default/FreeRTOS/Source/queue.o obj/default/FreeRTOS/Source/tasks.o obj/default/FreeRTOS/Source/timers.o obj/default/FreeRTOS/serial.o obj/default/ros_ethernet.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port_asm.o -lm -msys-lib=m
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o: In function `FreeRTOS_OutputARPRequest':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:584: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `prvProcessNetworkDownEvent':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1299: undefined reference to `xNetworkInterfaceInitialise'
+Makefile:1105: recipe for target 'ros_ethernet.elf' failed
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `vReturnEthernetFrame':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:2192: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_socket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:289: undefined reference to `xEventGroupCreate'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recvfrom':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:649: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_bind':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:948: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketClose':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1211: undefined reference to `vEventGroupDelete'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketWakeUpUser':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1878: undefined reference to `xEventGroupSetBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_connect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2059: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_accept':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2187: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recv':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2288: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_send':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2586: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPReturnPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:928: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPPrepareConnect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:1028: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvHandleListen':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:3086: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `vProcessGeneratedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:228: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `xProcessReceivedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:314: undefined reference to `xEventGroupSetBits'
+obj/default/ros_ethernet.o: In function `main':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/ros_ethernet.c:67: undefined reference to `xNetworkInterfaceInitialise'
+collect2: error: ld returned 1 exit status
+make: *** [ros_ethernet.elf] Error 1
+21:32:45 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling ros_ethernet.c to obj/default/ros_ethernet.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/ros_ethernet.o ros_ethernet.c
+Info: Linking ros_ethernet.elf
+nios2-elf-g++  -T'../ros_ethernet_bsp//linker.x' -msys-crt0='../ros_ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ros_ethernet_bsp/   -Wl,-Map=ros_ethernet.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ros_ethernet.elf obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o obj/default/FreeRTOS/Common_Demo_Tasks/GenQTest.o obj/default/FreeRTOS/Common_Demo_Tasks/PollQ.o obj/default/FreeRTOS/Common_Demo_Tasks/QPeek.o obj/default/FreeRTOS/Common_Demo_Tasks/blocktim.o obj/default/FreeRTOS/Common_Demo_Tasks/comtest.o obj/default/FreeRTOS/Common_Demo_Tasks/countsem.o obj/default/FreeRTOS/Common_Demo_Tasks/death.o obj/default/FreeRTOS/Common_Demo_Tasks/dynamic.o obj/default/FreeRTOS/Common_Demo_Tasks/flash.o obj/default/FreeRTOS/Common_Demo_Tasks/integer.o obj/default/FreeRTOS/Common_Demo_Tasks/recmutex.o obj/default/FreeRTOS/Common_Demo_Tasks/semtest.o obj/default/FreeRTOS/ParTest/ParTest.o obj/default/FreeRTOS/Source/list.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port.o obj/default/FreeRTOS/Source/portable/MenMang/heap_4.o obj/default/FreeRTOS/Source/queue.o obj/default/FreeRTOS/Source/tasks.o obj/default/FreeRTOS/Source/timers.o obj/default/FreeRTOS/serial.o obj/default/ros_ethernet.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port_asm.o -lm -msys-lib=m
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o: In function `FreeRTOS_OutputARPRequest':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:584: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `prvProcessNetworkDownEvent':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1299: undefined reference to `xNetworkInterfaceInitialise'
+Makefile:1105: recipe for target 'ros_ethernet.elf' failed
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `vReturnEthernetFrame':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:2192: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_socket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:289: undefined reference to `xEventGroupCreate'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recvfrom':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:649: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_bind':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:948: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketClose':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1211: undefined reference to `vEventGroupDelete'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketWakeUpUser':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1878: undefined reference to `xEventGroupSetBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_connect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2059: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_accept':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2187: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recv':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2288: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_send':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2586: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPReturnPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:928: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPPrepareConnect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:1028: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvHandleListen':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:3086: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `vProcessGeneratedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:228: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `xProcessReceivedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:314: undefined reference to `xEventGroupSetBits'
+collect2: error: ld returned 1 exit status
+make: *** [ros_ethernet.elf] Error 1
+21:38:06 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling ros_ethernet.c to obj/default/ros_ethernet.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/ros_ethernet.o ros_ethernet.c
+ros_ethernet.c: In function 'main':
+ros_ethernet.c:84:5: warning: implicit declaration of function 'FreeRTOS_IPInit' [-Wimplicit-function-declaration]
+     FreeRTOS_IPInit( ucIPAddress,
+     ^
+Info: Linking ros_ethernet.elf
+nios2-elf-g++  -T'../ros_ethernet_bsp//linker.x' -msys-crt0='../ros_ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ros_ethernet_bsp/   -Wl,-Map=ros_ethernet.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ros_ethernet.elf obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o obj/default/FreeRTOS/Common_Demo_Tasks/GenQTest.o obj/default/FreeRTOS/Common_Demo_Tasks/PollQ.o obj/default/FreeRTOS/Common_Demo_Tasks/QPeek.o obj/default/FreeRTOS/Common_Demo_Tasks/blocktim.o obj/default/FreeRTOS/Common_Demo_Tasks/comtest.o obj/default/FreeRTOS/Common_Demo_Tasks/countsem.o obj/default/FreeRTOS/Common_Demo_Tasks/death.o obj/default/FreeRTOS/Common_Demo_Tasks/dynamic.o obj/default/FreeRTOS/Common_Demo_Tasks/flash.o obj/default/FreeRTOS/Common_Demo_Tasks/integer.o obj/default/FreeRTOS/Common_Demo_Tasks/recmutex.o obj/default/FreeRTOS/Common_Demo_Tasks/semtest.o obj/default/FreeRTOS/ParTest/ParTest.o obj/default/FreeRTOS/Source/list.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port.o obj/default/FreeRTOS/Source/portable/MenMang/heap_4.o obj/default/FreeRTOS/Source/queue.o obj/default/FreeRTOS/Source/tasks.o obj/default/FreeRTOS/Source/timers.o obj/default/FreeRTOS/serial.o obj/default/ros_ethernet.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port_asm.o -lm -msys-lib=m
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o: In function `FreeRTOS_OutputARPRequest':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:584: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `prvProcessNetworkDownEvent':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1299: undefined reference to `xNetworkInterfaceInitialise'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `vReturnEthernetFrame':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:2192: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_socket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:289: undefined reference to `xEventGroupCreate'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recvfrom':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:649: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_bind':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:948: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketClose':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1211: undefined reference to `vEventGroupDelete'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketWakeUpUser':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1878: undefined reference to `xEventGroupSetBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_connect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2059: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_accept':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2187: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recv':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2288: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_send':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2586: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPReturnPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:928: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPPrepareConnect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:1028: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvHandleListen':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:3086: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `vProcessGeneratedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:228: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `xProcessReceivedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:314: undefined reference to `xEventGroupSetBits'
+collect2: error: ld returned 1 exit status
+make: *** [ros_ethernet.elf] Error 1
+Makefile:1105: recipe for target 'ros_ethernet.elf' failed
+21:39:34 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling ros_ethernet.c to obj/default/ros_ethernet.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/ros_ethernet.o ros_ethernet.c
+ros_ethernet.c:35:10: error: #include expects "FILENAME" or <FILENAME>
+ #include FreeRTOS_Sockets.h
+          ^
+ros_ethernet.c: In function 'main':
+ros_ethernet.c:86:5: warning: implicit declaration of function 'FreeRTOS_IPInit' [-Wimplicit-function-declaration]
+     FreeRTOS_IPInit( ucIPAddress,
+     ^
+make: *** [obj/default/ros_ethernet.o] Error 1
+Makefile:816: recipe for target 'obj/default/ros_ethernet.o' failed
+21:40:00 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling ros_ethernet.c to obj/default/ros_ethernet.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/ros_ethernet.o ros_ethernet.c
+ros_ethernet.c: In function 'main':
+ros_ethernet.c:86:5: warning: implicit declaration of function 'FreeRTOS_IPInit' [-Wimplicit-function-declaration]
+     FreeRTOS_IPInit( ucIPAddress,
+     ^
+Info: Linking ros_ethernet.elf
+nios2-elf-g++  -T'../ros_ethernet_bsp//linker.x' -msys-crt0='../ros_ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ros_ethernet_bsp/   -Wl,-Map=ros_ethernet.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ros_ethernet.elf obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o obj/default/FreeRTOS/Common_Demo_Tasks/GenQTest.o obj/default/FreeRTOS/Common_Demo_Tasks/PollQ.o obj/default/FreeRTOS/Common_Demo_Tasks/QPeek.o obj/default/FreeRTOS/Common_Demo_Tasks/blocktim.o obj/default/FreeRTOS/Common_Demo_Tasks/comtest.o obj/default/FreeRTOS/Common_Demo_Tasks/countsem.o obj/default/FreeRTOS/Common_Demo_Tasks/death.o obj/default/FreeRTOS/Common_Demo_Tasks/dynamic.o obj/default/FreeRTOS/Common_Demo_Tasks/flash.o obj/default/FreeRTOS/Common_Demo_Tasks/integer.o obj/default/FreeRTOS/Common_Demo_Tasks/recmutex.o obj/default/FreeRTOS/Common_Demo_Tasks/semtest.o obj/default/FreeRTOS/ParTest/ParTest.o obj/default/FreeRTOS/Source/list.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port.o obj/default/FreeRTOS/Source/portable/MenMang/heap_4.o obj/default/FreeRTOS/Source/queue.o obj/default/FreeRTOS/Source/tasks.o obj/default/FreeRTOS/Source/timers.o obj/default/FreeRTOS/serial.o obj/default/ros_ethernet.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port_asm.o -lm -msys-lib=m
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o: In function `FreeRTOS_OutputARPRequest':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:584: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `prvProcessNetworkDownEvent':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1299: undefined reference to `xNetworkInterfaceInitialise'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `vReturnEthernetFrame':
+Makefile:1105: recipe for target 'ros_ethernet.elf' failed
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:2192: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_socket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:289: undefined reference to `xEventGroupCreate'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recvfrom':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:649: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_bind':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:948: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketClose':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1211: undefined reference to `vEventGroupDelete'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketWakeUpUser':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1878: undefined reference to `xEventGroupSetBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_connect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2059: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_accept':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2187: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recv':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2288: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_send':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2586: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPReturnPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:928: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPPrepareConnect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:1028: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvHandleListen':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:3086: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `vProcessGeneratedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:228: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `xProcessReceivedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:314: undefined reference to `xEventGroupSetBits'
+collect2: error: ld returned 1 exit status
+make: *** [ros_ethernet.elf] Error 1
+21:42:51 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling ros_ethernet.c to obj/default/ros_ethernet.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/ros_ethernet.o ros_ethernet.c
+ros_ethernet.c: In function 'main':
+ros_ethernet.c:87:5: warning: implicit declaration of function 'FreeRTOS_IPInit' [-Wimplicit-function-declaration]
+     FreeRTOS_IPInit( ucIPAddress,
+     ^
+Info: Linking ros_ethernet.elf
+nios2-elf-g++  -T'../ros_ethernet_bsp//linker.x' -msys-crt0='../ros_ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ros_ethernet_bsp/   -Wl,-Map=ros_ethernet.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ros_ethernet.elf obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o obj/default/FreeRTOS/Common_Demo_Tasks/GenQTest.o obj/default/FreeRTOS/Common_Demo_Tasks/PollQ.o obj/default/FreeRTOS/Common_Demo_Tasks/QPeek.o obj/default/FreeRTOS/Common_Demo_Tasks/blocktim.o obj/default/FreeRTOS/Common_Demo_Tasks/comtest.o obj/default/FreeRTOS/Common_Demo_Tasks/countsem.o obj/default/FreeRTOS/Common_Demo_Tasks/death.o obj/default/FreeRTOS/Common_Demo_Tasks/dynamic.o obj/default/FreeRTOS/Common_Demo_Tasks/flash.o obj/default/FreeRTOS/Common_Demo_Tasks/integer.o obj/default/FreeRTOS/Common_Demo_Tasks/recmutex.o obj/default/FreeRTOS/Common_Demo_Tasks/semtest.o obj/default/FreeRTOS/ParTest/ParTest.o obj/default/FreeRTOS/Source/list.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port.o obj/default/FreeRTOS/Source/portable/MenMang/heap_4.o obj/default/FreeRTOS/Source/queue.o obj/default/FreeRTOS/Source/tasks.o obj/default/FreeRTOS/Source/timers.o obj/default/FreeRTOS/serial.o obj/default/ros_ethernet.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port_asm.o -lm -msys-lib=m
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o: In function `FreeRTOS_OutputARPRequest':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:584: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `prvProcessNetworkDownEvent':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1299: undefined reference to `xNetworkInterfaceInitialise'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `vReturnEthernetFrame':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:2192: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_socket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:289: undefined reference to `xEventGroupCreate'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recvfrom':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:649: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_bind':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:948: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketClose':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1211: undefined reference to `vEventGroupDelete'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketWakeUpUser':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1878: undefined reference to `xEventGroupSetBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_connect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2059: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_accept':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2187: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recv':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2288: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_send':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2586: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPReturnPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:928: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPPrepareConnect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:1028: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvHandleListen':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:3086: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `vProcessGeneratedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:228: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `xProcessReceivedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:314: undefined reference to `xEventGroupSetBits'
+collect2: error: ld returned 1 exit status
+make: *** [ros_ethernet.elf] Error 1
+Makefile:1105: recipe for target 'ros_ethernet.elf' failed
+21:44:19 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+In file included from FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:37:0:
+FreeRTOS-Plus/FreeRTOS-Plus-TCP/include/FreeRTOS_IP.h:34:30: fatal error: FreeRTOSIPConfig.h: No such file or directory
+ #include "FreeRTOSIPConfig.h"
+                              ^
+compilation terminated.
+make: *** [obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o] Error 1
+Makefile:816: recipe for target 'obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o' failed
+22:15:12 **** Build of configuration Nios II for project ros_ethernet ****
+make all 
+Info: Building ../ros_ethernet_bsp/
+make --no-print-directory -C ../ros_ethernet_bsp/
+[BSP build complete]
+Info: Compiling FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c to obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c
+Info: Compiling ros_ethernet.c to obj/default/ros_ethernet.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ros_ethernet_bsp//drivers/inc -I../ros_ethernet_bsp//HAL/inc -I../ros_ethernet_bsp/ -I../ros_ethernet_bsp//drivers/inc -IFreeRTOS -IFreeRTOS/Common_Demo_Tasks -IFreeRTOS/Common_Demo_Tasks/include -IFreeRTOS/Source -IFreeRTOS/Source/include -IFreeRTOS/Source/portable/GCC/NiosII -IFreeRTOS/ParTest -IFreeRTOS/Source/portable/MenMang -IFreeRTOS-Plus/FreeRTOS-Plus-TCP -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC -IFreeRTOS-Plus/FreeRTOS-Plus-TCP/include  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALTERA_TRIPLE_SPEED_MAC -DALT_SINGLE_THREADED -DALTERA_AUTONEG_TIMEOUT_THRESHOLD=2500 -DALTERA_CHECKLINK_TIMEOUT_THRESHOLD=10000 -DALTERA_NOMDIO_TIMEOUT_THRESHOLD=1000000    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/ros_ethernet.o ros_ethernet.c
+ros_ethernet.c: In function 'main':
+ros_ethernet.c:87:5: warning: implicit declaration of function 'FreeRTOS_IPInit' [-Wimplicit-function-declaration]
+     FreeRTOS_IPInit( ucIPAddress,
+     ^
+Info: Linking ros_ethernet.elf
+nios2-elf-g++  -T'../ros_ethernet_bsp//linker.x' -msys-crt0='../ros_ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ros_ethernet_bsp/   -Wl,-Map=ros_ethernet.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ros_ethernet.elf obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o obj/default/FreeRTOS/Common_Demo_Tasks/BlockQ.o obj/default/FreeRTOS/Common_Demo_Tasks/GenQTest.o obj/default/FreeRTOS/Common_Demo_Tasks/PollQ.o obj/default/FreeRTOS/Common_Demo_Tasks/QPeek.o obj/default/FreeRTOS/Common_Demo_Tasks/blocktim.o obj/default/FreeRTOS/Common_Demo_Tasks/comtest.o obj/default/FreeRTOS/Common_Demo_Tasks/countsem.o obj/default/FreeRTOS/Common_Demo_Tasks/death.o obj/default/FreeRTOS/Common_Demo_Tasks/dynamic.o obj/default/FreeRTOS/Common_Demo_Tasks/flash.o obj/default/FreeRTOS/Common_Demo_Tasks/integer.o obj/default/FreeRTOS/Common_Demo_Tasks/recmutex.o obj/default/FreeRTOS/Common_Demo_Tasks/semtest.o obj/default/FreeRTOS/ParTest/ParTest.o obj/default/FreeRTOS/Source/list.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port.o obj/default/FreeRTOS/Source/portable/MenMang/heap_4.o obj/default/FreeRTOS/Source/queue.o obj/default/FreeRTOS/Source/tasks.o obj/default/FreeRTOS/Source/timers.o obj/default/FreeRTOS/serial.o obj/default/ros_ethernet.o obj/default/FreeRTOS/Source/portable/GCC/NiosII/port_asm.o -lm -msys-lib=m
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o: In function `FreeRTOS_OutputARPRequest':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_ARP.c:584: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `prvProcessNetworkDownEvent':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:1299: undefined reference to `xNetworkInterfaceInitialise'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.o: In function `vReturnEthernetFrame':
+Makefile:1105: recipe for target 'ros_ethernet.elf' failed
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_IP.c:2192: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_socket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:289: undefined reference to `xEventGroupCreate'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recvfrom':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:649: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_bind':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:948: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketClose':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1211: undefined reference to `vEventGroupDelete'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `vSocketWakeUpUser':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:1878: undefined reference to `xEventGroupSetBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_connect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2059: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_accept':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2187: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_recv':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2288: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o: In function `FreeRTOS_send':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.c:2586: undefined reference to `xEventGroupWaitBits'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPReturnPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:928: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvTCPPrepareConnect':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:1028: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o: In function `prvHandleListen':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.c:3086: undefined reference to `ulApplicationGetNextSequenceNumber'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `vProcessGeneratedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:228: undefined reference to `xNetworkInterfaceOutput'
+obj/default/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o: In function `xProcessReceivedUDPPacket':
+/home/nestor/repositorios/DE2-115_ros_ethernet/software/ros_ethernet/FreeRTOS-Plus/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.c:314: undefined reference to `xEventGroupSetBits'
+collect2: error: ld returned 1 exit status
+make: *** [ros_ethernet.elf] Error 1
