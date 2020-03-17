@@ -1,0 +1,86 @@
+	component de2_115_WEB_Qsys is
+		port (
+			altpll_areset_conduit_export                                    : in    std_logic                     := 'X';             -- export
+			altpll_c1_clk                                                   : out   std_logic;                                        -- clk
+			altpll_c3_clk                                                   : out   std_logic;                                        -- clk
+			altpll_locked_conduit_export                                    : out   std_logic;                                        -- export
+			audio_conduit_end_XCK                                           : out   std_logic;                                        -- XCK
+			audio_conduit_end_ADCDAT                                        : in    std_logic                     := 'X';             -- ADCDAT
+			audio_conduit_end_ADCLRC                                        : in    std_logic                     := 'X';             -- ADCLRC
+			audio_conduit_end_DACDAT                                        : out   std_logic;                                        -- DACDAT
+			audio_conduit_end_DACLRC                                        : in    std_logic                     := 'X';             -- DACLRC
+			audio_conduit_end_BCLK                                          : in    std_logic                     := 'X';             -- BCLK
+			c0_out_clk_clk                                                  : out   std_logic;                                        -- clk
+			c2_out_clk_clk                                                  : out   std_logic;                                        -- clk
+			clk_50_clk_in_clk                                               : in    std_logic                     := 'X';             -- clk
+			epp_i2c_scl_external_connection_export                          : out   std_logic;                                        -- export
+			epp_i2c_sda_external_connection_export                          : inout std_logic                     := 'X';             -- export
+			i2c_scl_external_connection_export                              : out   std_logic;                                        -- export
+			i2c_sda_external_connection_export                              : inout std_logic                     := 'X';             -- export
+			ir_external_connection_export                                   : in    std_logic                     := 'X';             -- export
+			isp1362_if_0_conduit_end_DATA                                   : inout std_logic_vector(15 downto 0) := (others => 'X'); -- DATA
+			isp1362_if_0_conduit_end_ADDR                                   : out   std_logic_vector(1 downto 0);                     -- ADDR
+			isp1362_if_0_conduit_end_RD_N                                   : out   std_logic;                                        -- RD_N
+			isp1362_if_0_conduit_end_WR_N                                   : out   std_logic;                                        -- WR_N
+			isp1362_if_0_conduit_end_CS_N                                   : out   std_logic;                                        -- CS_N
+			isp1362_if_0_conduit_end_RST_N                                  : out   std_logic;                                        -- RST_N
+			isp1362_if_0_conduit_end_INT0                                   : in    std_logic                     := 'X';             -- INT0
+			isp1362_if_0_conduit_end_INT1                                   : in    std_logic                     := 'X';             -- INT1
+			key_external_connection_export                                  : in    std_logic_vector(3 downto 0)  := (others => 'X'); -- export
+			lcd_external_RS                                                 : out   std_logic;                                        -- RS
+			lcd_external_RW                                                 : out   std_logic;                                        -- RW
+			lcd_external_data                                               : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- data
+			lcd_external_E                                                  : out   std_logic;                                        -- E
+			ledg_external_connection_export                                 : out   std_logic_vector(8 downto 0);                     -- export
+			ledr_external_connection_export                                 : out   std_logic_vector(17 downto 0);                    -- export
+			reset_reset_n                                                   : in    std_logic                     := 'X';             -- reset_n
+			rs232_external_connection_rxd                                   : in    std_logic                     := 'X';             -- rxd
+			rs232_external_connection_txd                                   : out   std_logic;                                        -- txd
+			rs232_external_connection_cts_n                                 : in    std_logic                     := 'X';             -- cts_n
+			rs232_external_connection_rts_n                                 : out   std_logic;                                        -- rts_n
+			sd_clk_external_connection_export                               : out   std_logic;                                        -- export
+			sd_cmd_external_connection_export                               : inout std_logic                     := 'X';             -- export
+			sd_dat_external_connection_export                               : inout std_logic_vector(3 downto 0)  := (others => 'X'); -- export
+			sd_wp_n_external_connection_export                              : in    std_logic                     := 'X';             -- export
+			sdram_wire_addr                                                 : out   std_logic_vector(12 downto 0);                    -- addr
+			sdram_wire_ba                                                   : out   std_logic_vector(1 downto 0);                     -- ba
+			sdram_wire_cas_n                                                : out   std_logic;                                        -- cas_n
+			sdram_wire_cke                                                  : out   std_logic;                                        -- cke
+			sdram_wire_cs_n                                                 : out   std_logic;                                        -- cs_n
+			sdram_wire_dq                                                   : inout std_logic_vector(31 downto 0) := (others => 'X'); -- dq
+			sdram_wire_dqm                                                  : out   std_logic_vector(3 downto 0);                     -- dqm
+			sdram_wire_ras_n                                                : out   std_logic;                                        -- ras_n
+			sdram_wire_we_n                                                 : out   std_logic;                                        -- we_n
+			seg7_conduit_end_export                                         : out   std_logic_vector(63 downto 0);                    -- export
+			sma_in_external_connection_export                               : in    std_logic                     := 'X';             -- export
+			sma_out_external_connection_export                              : out   std_logic;                                        -- export
+			sram_conduit_end_DQ                                             : inout std_logic_vector(15 downto 0) := (others => 'X'); -- DQ
+			sram_conduit_end_ADDR                                           : out   std_logic_vector(19 downto 0);                    -- ADDR
+			sram_conduit_end_UB_n                                           : out   std_logic;                                        -- UB_n
+			sram_conduit_end_LB_n                                           : out   std_logic;                                        -- LB_n
+			sram_conduit_end_WE_n                                           : out   std_logic;                                        -- WE_n
+			sram_conduit_end_CE_n                                           : out   std_logic;                                        -- CE_n
+			sram_conduit_end_OE_n                                           : out   std_logic;                                        -- OE_n
+			sw_external_connection_export                                   : in    std_logic_vector(17 downto 0) := (others => 'X'); -- export
+			tri_state_bridge_flash_bridge_0_out_address_to_the_cfi_flash    : out   std_logic_vector(22 downto 0);                    -- address_to_the_cfi_flash
+			tri_state_bridge_flash_bridge_0_out_tri_state_bridge_flash_data : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- tri_state_bridge_flash_data
+			tri_state_bridge_flash_bridge_0_out_write_n_to_the_cfi_flash    : out   std_logic_vector(0 downto 0);                     -- write_n_to_the_cfi_flash
+			tri_state_bridge_flash_bridge_0_out_select_n_to_the_cfi_flash   : out   std_logic_vector(0 downto 0);                     -- select_n_to_the_cfi_flash
+			tri_state_bridge_flash_bridge_0_out_read_n_to_the_cfi_flash     : out   std_logic_vector(0 downto 0);                     -- read_n_to_the_cfi_flash
+			tse_mac_mac_mdio_connection_mdc                                 : out   std_logic;                                        -- mdc
+			tse_mac_mac_mdio_connection_mdio_in                             : in    std_logic                     := 'X';             -- mdio_in
+			tse_mac_mac_mdio_connection_mdio_out                            : out   std_logic;                                        -- mdio_out
+			tse_mac_mac_mdio_connection_mdio_oen                            : out   std_logic;                                        -- mdio_oen
+			tse_mac_mac_rgmii_connection_rgmii_in                           : in    std_logic_vector(3 downto 0)  := (others => 'X'); -- rgmii_in
+			tse_mac_mac_rgmii_connection_rgmii_out                          : out   std_logic_vector(3 downto 0);                     -- rgmii_out
+			tse_mac_mac_rgmii_connection_rx_control                         : in    std_logic                     := 'X';             -- rx_control
+			tse_mac_mac_rgmii_connection_tx_control                         : out   std_logic;                                        -- tx_control
+			tse_mac_mac_status_connection_set_10                            : in    std_logic                     := 'X';             -- set_10
+			tse_mac_mac_status_connection_set_1000                          : in    std_logic                     := 'X';             -- set_1000
+			tse_mac_mac_status_connection_eth_mode                          : out   std_logic;                                        -- eth_mode
+			tse_mac_mac_status_connection_ena_10                            : out   std_logic;                                        -- ena_10
+			tse_mac_pcs_mac_rx_clock_connection_clk                         : in    std_logic                     := 'X';             -- clk
+			tse_mac_pcs_mac_tx_clock_connection_clk                         : in    std_logic                     := 'X'              -- clk
+		);
+	end component de2_115_WEB_Qsys;
+

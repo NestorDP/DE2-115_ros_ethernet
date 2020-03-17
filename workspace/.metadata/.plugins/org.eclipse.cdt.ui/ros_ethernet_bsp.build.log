@@ -1,6 +1,0 @@
-18:50:06 **** Clean-only build of configuration Nios II for project ros_ethernet_bsp ****
-make clean 
-[BSP clean complete]
-
-18:50:06 Build Finished (took 75ms)
-
