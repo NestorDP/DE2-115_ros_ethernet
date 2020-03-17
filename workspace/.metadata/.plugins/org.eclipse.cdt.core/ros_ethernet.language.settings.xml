@@ -1403,13 +1403,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -1532,13 +1541,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -1610,13 +1628,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -1670,13 +1697,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -1766,13 +1802,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -1898,13 +1943,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -2150,13 +2204,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -2210,13 +2273,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -2810,6 +2882,15 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
 						<entry kind="macro" name="ALTERA_CHECKLINK_TIMEOUT_THRESHOLD" value="10000"/>
 						<entry kind="macro" name="ALTERA_NOMDIO_TIMEOUT_THRESHOLD" value="1000000"/>
@@ -3047,13 +3128,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -3269,13 +3359,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -3449,13 +3548,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -3545,13 +3653,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -3587,13 +3704,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -3962,13 +4088,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -4073,13 +4208,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -4223,13 +4367,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -4283,13 +4436,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -4439,13 +4601,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -4481,13 +4652,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>
@@ -4577,13 +4757,22 @@
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/GCC/NiosII">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="includePath" name="/${ProjName}/FreeRTOS/ParTest">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS/Source/portable/MenMang">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/portable/Compiler/GCC">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/FreeRTOS-Plus/FreeRTOS-Plus-TCP/include">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="ALTERA_AUTONEG_TIMEOUT_THRESHOLD" value="2500"/>

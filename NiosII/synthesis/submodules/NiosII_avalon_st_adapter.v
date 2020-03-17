@@ -18,7 +18,7 @@ module NiosII_avalon_st_adapter #(
 		parameter inReadyLatency  = 2,
 		parameter outDataWidth    = 32,
 		parameter outChannelWidth = 0,
-		parameter outErrorWidth   = 6,
+		parameter outErrorWidth   = 0,
 		parameter outUseEmptyPort = 1,
 		parameter outUseValid     = 1,
 		parameter outUseReady     = 1,
@@ -38,9 +38,15 @@ module NiosII_avalon_st_adapter #(
 		input  wire        out_0_ready,         //         .ready
 		output wire        out_0_startofpacket, //         .startofpacket
 		output wire        out_0_endofpacket,   //         .endofpacket
-		output wire [1:0]  out_0_empty,         //         .empty
-		output wire [5:0]  out_0_error          //         .error
+		output wire [1:0]  out_0_empty          //         .empty
 	);
+
+	wire         error_adapter_0_out_valid;         // error_adapter_0:out_valid -> timing_adapter_0:in_valid
+	wire  [31:0] error_adapter_0_out_data;          // error_adapter_0:out_data -> timing_adapter_0:in_data
+	wire         error_adapter_0_out_ready;         // timing_adapter_0:in_ready -> error_adapter_0:out_ready
+	wire         error_adapter_0_out_startofpacket; // error_adapter_0:out_startofpacket -> timing_adapter_0:in_startofpacket
+	wire         error_adapter_0_out_endofpacket;   // error_adapter_0:out_endofpacket -> timing_adapter_0:in_endofpacket
+	wire   [1:0] error_adapter_0_out_empty;         // error_adapter_0:out_empty -> timing_adapter_0:in_empty
 
 	generate
 		// If any of the display statements (or deliberately broken
@@ -147,7 +153,7 @@ module NiosII_avalon_st_adapter #(
 			instantiated_with_wrong_parameters_error_see_comment_above
 					outchannelwidth_check ( .error(1'b1) );
 		end
-		if (outErrorWidth != 6)
+		if (outErrorWidth != 0)
 		begin
 			initial begin
 				$display("Generated module instantiated with wrong parameters");
@@ -194,23 +200,39 @@ module NiosII_avalon_st_adapter #(
 		end
 	endgenerate
 
+	NiosII_avalon_st_adapter_error_adapter_0 error_adapter_0 (
+		.clk               (in_clk_0_clk),                      //   clk.clk
+		.reset_n           (~in_rst_0_reset),                   // reset.reset_n
+		.in_data           (in_0_data),                         //    in.data
+		.in_valid          (in_0_valid),                        //      .valid
+		.in_ready          (in_0_ready),                        //      .ready
+		.in_startofpacket  (in_0_startofpacket),                //      .startofpacket
+		.in_endofpacket    (in_0_endofpacket),                  //      .endofpacket
+		.in_empty          (in_0_empty),                        //      .empty
+		.in_error          (in_0_error),                        //      .error
+		.out_data          (error_adapter_0_out_data),          //   out.data
+		.out_valid         (error_adapter_0_out_valid),         //      .valid
+		.out_ready         (error_adapter_0_out_ready),         //      .ready
+		.out_startofpacket (error_adapter_0_out_startofpacket), //      .startofpacket
+		.out_endofpacket   (error_adapter_0_out_endofpacket),   //      .endofpacket
+		.out_empty         (error_adapter_0_out_empty)          //      .empty
+	);
+
 	NiosII_avalon_st_adapter_timing_adapter_0 timing_adapter_0 (
-		.clk               (in_clk_0_clk),        //   clk.clk
-		.reset_n           (~in_rst_0_reset),     // reset.reset_n
-		.in_data           (in_0_data),           //    in.data
-		.in_valid          (in_0_valid),          //      .valid
-		.in_ready          (in_0_ready),          //      .ready
-		.in_startofpacket  (in_0_startofpacket),  //      .startofpacket
-		.in_endofpacket    (in_0_endofpacket),    //      .endofpacket
-		.in_empty          (in_0_empty),          //      .empty
-		.in_error          (in_0_error),          //      .error
-		.out_data          (out_0_data),          //   out.data
-		.out_valid         (out_0_valid),         //      .valid
-		.out_ready         (out_0_ready),         //      .ready
-		.out_startofpacket (out_0_startofpacket), //      .startofpacket
-		.out_endofpacket   (out_0_endofpacket),   //      .endofpacket
-		.out_empty         (out_0_empty),         //      .empty
-		.out_error         (out_0_error)          //      .error
+		.clk               (in_clk_0_clk),                      //   clk.clk
+		.reset_n           (~in_rst_0_reset),                   // reset.reset_n
+		.in_data           (error_adapter_0_out_data),          //    in.data
+		.in_valid          (error_adapter_0_out_valid),         //      .valid
+		.in_ready          (error_adapter_0_out_ready),         //      .ready
+		.in_startofpacket  (error_adapter_0_out_startofpacket), //      .startofpacket
+		.in_endofpacket    (error_adapter_0_out_endofpacket),   //      .endofpacket
+		.in_empty          (error_adapter_0_out_empty),         //      .empty
+		.out_data          (out_0_data),                        //   out.data
+		.out_valid         (out_0_valid),                       //      .valid
+		.out_ready         (out_0_ready),                       //      .ready
+		.out_startofpacket (out_0_startofpacket),               //      .startofpacket
+		.out_endofpacket   (out_0_endofpacket),                 //      .endofpacket
+		.out_empty         (out_0_empty)                        //      .empty
 	);
 
 endmodule

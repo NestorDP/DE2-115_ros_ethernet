@@ -38,7 +38,7 @@
 //   output_name:        NiosII_avalon_st_adapter_timing_adapter_0_fifo
 //   depth:              16
 //   depthBits:          4
-//   data_width          42
+//   data_width          36
 //   use_fill_level:     true
 //   in_use_ready:       true
 //   in_use_valid:       true
@@ -56,11 +56,11 @@ module NiosII_avalon_st_adapter_timing_adapter_0_fifo (
 //Interface: in
   output reg         in_ready,
   input              in_valid,
-  input [42-1:0]      in_data,
+  input [36-1:0]      in_data,
 //Interface: out
   input              out_ready,
   output reg         out_valid,
-  output reg [42-1:0] out_data,
+  output reg [36-1:0] out_data,
   // Interface: clk
  input              clk,
  // Interface: reset
@@ -73,7 +73,7 @@ module NiosII_avalon_st_adapter_timing_adapter_0_fifo (
    //| Internal Parameters
    // ---------------------------------------------------------------------
    parameter DEPTH = 16;
-   parameter DATA_WIDTH = 42;   
+   parameter DATA_WIDTH = 36;   
    parameter ADDR_WIDTH = 4;
              
    // ---------------------------------------------------------------------

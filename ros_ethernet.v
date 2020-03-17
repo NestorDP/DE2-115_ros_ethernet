@@ -102,7 +102,7 @@ module ros_ethernet(
 		.port_gpio_0_export                  	(GPIO[31:0]),     //                     port_gpio_0.export
 		.port_key_export                     	(KEY[1:0]),       //                        port_key.export
 		.port_led_export                     	(LEDG[7:0]),      //                        port_led.export
-		.port_sw_export                      	(SW[3:0]),        //                         port_sw.export
+		.port_sw_export                      	(SW[3:0]),        //                         port_sw.export 
 		.ram_clk_clk                         	(DRAM_CLK),       //                         ram_clk.clk
 		.reset_reset_n                       	(KEY[3]),         //                           reset.reset_n
 		.sdram_addr         							(DRAM_ADDR),  		// 					 		  	  sdram.addr
@@ -129,6 +129,5 @@ module ros_ethernet(
 		.tse_mac_status_connection_eth_mode  	(eth_mode),  		//       tse_mac_status_connection.eth_mode
 		.tse_mac_status_connection_ena_10    	(ena_10),    		//                                .ena_10
 	 );
-
 
 endmodule

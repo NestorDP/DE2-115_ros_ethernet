@@ -16,12 +16,17 @@
          value = "11";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element Button_Pio.avalon_parallel_port_slave
    {
       datum baseAddress
       {
-         value = "268453104";
+         value = "268453088";
          type = "String";
       }
    }
@@ -32,28 +37,17 @@
          value = "14";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element IO_Pio.avalon_parallel_port_slave
    {
       datum baseAddress
       {
-         value = "268453072";
-         type = "String";
-      }
-   }
-   element LED_Pio
-   {
-      datum _sortIndex
-      {
-         value = "10";
-         type = "int";
-      }
-   }
-   element LED_Pio.avalon_parallel_port_slave
-   {
-      datum baseAddress
-      {
-         value = "268453120";
+         value = "268453056";
          type = "String";
       }
    }
@@ -64,12 +58,17 @@
          value = "12";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element Switch_Pio.avalon_parallel_port_slave
    {
       datum baseAddress
       {
-         value = "268453088";
+         value = "268453072";
          type = "String";
       }
    }
@@ -125,12 +124,65 @@
          value = "9";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element jtag.avalon_jtag_slave
    {
       datum baseAddress
       {
-         value = "268453144";
+         value = "268453112";
+         type = "String";
+      }
+   }
+   element msgdma_rx
+   {
+      datum _sortIndex
+      {
+         value = "16";
+         type = "int";
+      }
+   }
+   element msgdma_rx.csr
+   {
+      datum baseAddress
+      {
+         value = "268452896";
+         type = "String";
+      }
+   }
+   element msgdma_rx.descriptor_slave
+   {
+      datum baseAddress
+      {
+         value = "268453024";
+         type = "String";
+      }
+   }
+   element msgdma_tx
+   {
+      datum _sortIndex
+      {
+         value = "17";
+         type = "int";
+      }
+   }
+   element msgdma_tx.csr
+   {
+      datum baseAddress
+      {
+         value = "268452864";
+         type = "String";
+      }
+   }
+   element msgdma_tx.descriptor_slave
+   {
+      datum baseAddress
+      {
+         value = "268453008";
          type = "String";
       }
    }
@@ -141,12 +193,33 @@
          value = "2";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element onchip_memory.s1
    {
       datum baseAddress
       {
          value = "268443648";
+         type = "String";
+      }
+   }
+   element pio_led
+   {
+      datum _sortIndex
+      {
+         value = "10";
+         type = "int";
+      }
+   }
+   element pio_led.s1
+   {
+      datum baseAddress
+      {
+         value = "268452992";
          type = "String";
       }
    }
@@ -157,6 +230,11 @@
          value = "8";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element sdram
    {
@@ -164,6 +242,11 @@
       {
          value = "4";
          type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
       }
    }
    element sdram.s1
@@ -179,52 +262,17 @@
          type = "String";
       }
    }
-   element sgdma_rx
-   {
-      datum _sortIndex
-      {
-         value = "16";
-         type = "int";
-      }
-   }
-   element sgdma_rx.csr
-   {
-      datum baseAddress
-      {
-         value = "268452928";
-         type = "String";
-      }
-   }
-   element sgdma_rx.csr_irq
-   {
-      datum _tags
-      {
-         value = "";
-         type = "String";
-      }
-   }
-   element sgdma_tx
-   {
-      datum _sortIndex
-      {
-         value = "17";
-         type = "int";
-      }
-   }
-   element sgdma_tx.csr
-   {
-      datum baseAddress
-      {
-         value = "268452864";
-         type = "String";
-      }
-   }
    element sys_clk
    {
       datum _sortIndex
       {
          value = "6";
          type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
       }
    }
    element sys_clk_timer
@@ -234,12 +282,17 @@
          value = "7";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element sys_clk_timer.s1
    {
       datum baseAddress
       {
-         value = "268453024";
+         value = "268452960";
          type = "String";
       }
    }
@@ -250,12 +303,17 @@
          value = "3";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element sys_id.control_slave
    {
       datum baseAddress
       {
-         value = "268453136";
+         value = "268453104";
          type = "String";
       }
    }
@@ -266,12 +324,17 @@
          value = "5";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element sys_pll.pll_slave
    {
       datum baseAddress
       {
-         value = "268453056";
+         value = "268453040";
          type = "String";
       }
    }
@@ -298,12 +361,17 @@
          value = "13";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element uart.s1
    {
       datum baseAddress
       {
-         value = "268452992";
+         value = "268452928";
          type = "String";
       }
    }
@@ -321,7 +389,7 @@
  <parameter name="hideFromIPCatalog" value="false" />
  <parameter name="lockedInterfaceDefinition" value="" />
  <parameter name="maxAdditionalLatency" value="1" />
- <parameter name="projectName">FreeRTOS_System02.qpf</parameter>
+ <parameter name="projectName">de2_115_ros_ethernet.qpf</parameter>
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="0" />
  <parameter name="testBenchDutName" value="" />
@@ -341,7 +409,7 @@
    dir="end" />
  <interface
    name="port_led"
-   internal="LED_Pio.external_interface"
+   internal="pio_led.external_connection"
    type="conduit"
    dir="end" />
  <interface
@@ -423,26 +491,6 @@
   <parameter name="sevensegs" value="3 to 0" />
  </module>
  <module
-   name="LED_Pio"
-   kind="altera_up_avalon_parallel_port"
-   version="18.0"
-   enabled="1">
-  <parameter name="AUTO_CLK_CLOCK_RATE" value="100000000" />
-  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
-  <parameter name="board" value="DE0-Nano" />
-  <parameter name="capture" value="false" />
-  <parameter name="custom_DW" value="32" />
-  <parameter name="custom_direction" value="Input only" />
-  <parameter name="custom_port" value="false" />
-  <parameter name="edge" value="Rising" />
-  <parameter name="gpio" value="GPIO 0 (JP1)" />
-  <parameter name="irq" value="false" />
-  <parameter name="irq_type" value="Edge" />
-  <parameter name="leds" value="Green" />
-  <parameter name="preset" value="LEDs" />
-  <parameter name="sevensegs" value="3 to 0" />
- </module>
- <module
    name="Switch_Pio"
    kind="altera_up_avalon_parallel_port"
    version="18.0"
@@ -488,7 +536,7 @@
   <parameter name="dataAddrWidth" value="29" />
   <parameter name="dataMasterHighPerformanceAddrWidth" value="1" />
   <parameter name="dataMasterHighPerformanceMapParam" value="" />
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x8000000' end='0x10000000' type='altera_avalon_new_sdram_controller.s1' /><slave name='descriptor_memory.s1' start='0x10001000' end='0x10002000' type='altera_avalon_onchip_memory2.s1' /><slave name='onchip_memory.s1' start='0x10002000' end='0x10003000' type='altera_avalon_onchip_memory2.s1' /><slave name='cpu.debug_mem_slave' start='0x10003800' end='0x10004000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='tse.control_port' start='0x10004000' end='0x10004400' type='altera_eth_tse.control_port' /><slave name='sgdma_tx.csr' start='0x10004400' end='0x10004440' type='altera_avalon_sgdma.csr' /><slave name='sgdma_rx.csr' start='0x10004440' end='0x10004480' type='altera_avalon_sgdma.csr' /><slave name='uart.s1' start='0x10004480' end='0x100044A0' type='altera_avalon_uart.s1' /><slave name='sys_clk_timer.s1' start='0x100044A0' end='0x100044C0' type='altera_avalon_timer.s1' /><slave name='sys_pll.pll_slave' start='0x100044C0' end='0x100044D0' type='altpll.pll_slave' /><slave name='IO_Pio.avalon_parallel_port_slave' start='0x100044D0' end='0x100044E0' type='altera_up_avalon_parallel_port.avalon_parallel_port_slave' /><slave name='Switch_Pio.avalon_parallel_port_slave' start='0x100044E0' end='0x100044F0' type='altera_up_avalon_parallel_port.avalon_parallel_port_slave' /><slave name='Button_Pio.avalon_parallel_port_slave' start='0x100044F0' end='0x10004500' type='altera_up_avalon_parallel_port.avalon_parallel_port_slave' /><slave name='LED_Pio.avalon_parallel_port_slave' start='0x10004500' end='0x10004510' type='altera_up_avalon_parallel_port.avalon_parallel_port_slave' /><slave name='sys_id.control_slave' start='0x10004510' end='0x10004518' type='altera_avalon_sysid_qsys.control_slave' /><slave name='jtag.avalon_jtag_slave' start='0x10004518' end='0x10004520' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x8000000' end='0x10000000' type='altera_avalon_new_sdram_controller.s1' /><slave name='descriptor_memory.s1' start='0x10001000' end='0x10002000' type='altera_avalon_onchip_memory2.s1' /><slave name='onchip_memory.s1' start='0x10002000' end='0x10003000' type='altera_avalon_onchip_memory2.s1' /><slave name='cpu.debug_mem_slave' start='0x10003800' end='0x10004000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='tse.control_port' start='0x10004000' end='0x10004400' type='altera_eth_tse.control_port' /><slave name='msgdma_tx.csr' start='0x10004400' end='0x10004420' type='altera_msgdma.csr' /><slave name='msgdma_rx.csr' start='0x10004420' end='0x10004440' type='altera_msgdma.csr' /><slave name='uart.s1' start='0x10004440' end='0x10004460' type='altera_avalon_uart.s1' /><slave name='sys_clk_timer.s1' start='0x10004460' end='0x10004480' type='altera_avalon_timer.s1' /><slave name='pio_led.s1' start='0x10004480' end='0x10004490' type='altera_avalon_pio.s1' /><slave name='msgdma_tx.descriptor_slave' start='0x10004490' end='0x100044A0' type='altera_msgdma.descriptor_slave' /><slave name='msgdma_rx.descriptor_slave' start='0x100044A0' end='0x100044B0' type='altera_msgdma.descriptor_slave' /><slave name='sys_pll.pll_slave' start='0x100044B0' end='0x100044C0' type='altpll.pll_slave' /><slave name='IO_Pio.avalon_parallel_port_slave' start='0x100044C0' end='0x100044D0' type='altera_up_avalon_parallel_port.avalon_parallel_port_slave' /><slave name='Switch_Pio.avalon_parallel_port_slave' start='0x100044D0' end='0x100044E0' type='altera_up_avalon_parallel_port.avalon_parallel_port_slave' /><slave name='Button_Pio.avalon_parallel_port_slave' start='0x100044E0' end='0x100044F0' type='altera_up_avalon_parallel_port.avalon_parallel_port_slave' /><slave name='sys_id.control_slave' start='0x100044F0' end='0x100044F8' type='altera_avalon_sysid_qsys.control_slave' /><slave name='jtag.avalon_jtag_slave' start='0x100044F8' end='0x10004500' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></parameter>
   <parameter name="data_master_high_performance_paddr_base" value="0" />
   <parameter name="data_master_high_performance_paddr_size" value="0" />
   <parameter name="data_master_paddr_base" value="0" />
@@ -534,7 +582,7 @@
   <parameter name="instruction_master_high_performance_paddr_size" value="0" />
   <parameter name="instruction_master_paddr_base" value="0" />
   <parameter name="instruction_master_paddr_size" value="0" />
-  <parameter name="internalIrqMaskSystemInfo" value="31" />
+  <parameter name="internalIrqMaskSystemInfo" value="47" />
   <parameter name="io_regionbase" value="0" />
   <parameter name="io_regionsize" value="0" />
   <parameter name="master_addr_map" value="false" />
@@ -693,6 +741,92 @@
   <parameter name="writeBufferDepth" value="64" />
   <parameter name="writeIRQThreshold" value="8" />
  </module>
+ <module name="msgdma_rx" kind="altera_msgdma" version="18.1" enabled="1">
+  <parameter name="AUTO_DESCRIPTOR_READ_MASTER_ADDRESS_MAP" value="" />
+  <parameter
+     name="AUTO_DESCRIPTOR_READ_MASTER_ADDRESS_WIDTH"
+     value="AddressWidth = -1" />
+  <parameter name="AUTO_DESCRIPTOR_WRITE_MASTER_ADDRESS_MAP" value="" />
+  <parameter
+     name="AUTO_DESCRIPTOR_WRITE_MASTER_ADDRESS_WIDTH"
+     value="AddressWidth = -1" />
+  <parameter name="AUTO_DEVICE" value="EP4CE115F29C7" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
+  <parameter name="AUTO_MM_READ_ADDRESS_MAP" value="" />
+  <parameter name="AUTO_MM_READ_ADDRESS_WIDTH" value="AddressWidth = -1" />
+  <parameter name="AUTO_MM_WRITE_ADDRESS_MAP"><![CDATA[<address-map><slave name='descriptor_memory.s1' start='0x10001000' end='0x10002000' /></address-map>]]></parameter>
+  <parameter name="AUTO_MM_WRITE_ADDRESS_WIDTH" value="AddressWidth = 29" />
+  <parameter name="BURST_ENABLE" value="0" />
+  <parameter name="BURST_WRAPPING_SUPPORT" value="0" />
+  <parameter name="CHANNEL_ENABLE" value="0" />
+  <parameter name="CHANNEL_WIDTH" value="8" />
+  <parameter name="DATA_FIFO_DEPTH" value="32" />
+  <parameter name="DATA_WIDTH" value="32" />
+  <parameter name="DESCRIPTOR_FIFO_DEPTH" value="128" />
+  <parameter name="ENHANCED_FEATURES" value="0" />
+  <parameter name="ERROR_ENABLE" value="0" />
+  <parameter name="ERROR_WIDTH" value="8" />
+  <parameter name="EXPOSE_ST_PORT" value="0" />
+  <parameter name="FIX_ADDRESS_WIDTH" value="32" />
+  <parameter name="MAX_BURST_COUNT" value="2" />
+  <parameter name="MAX_BYTE" value="1024" />
+  <parameter name="MAX_STRIDE" value="1" />
+  <parameter name="MODE" value="2" />
+  <parameter name="PACKET_ENABLE" value="1" />
+  <parameter name="PREFETCHER_DATA_WIDTH" value="32" />
+  <parameter name="PREFETCHER_ENABLE" value="0" />
+  <parameter name="PREFETCHER_MAX_READ_BURST_COUNT" value="2" />
+  <parameter name="PREFETCHER_READ_BURST_ENABLE" value="0" />
+  <parameter name="PROGRAMMABLE_BURST_ENABLE" value="0" />
+  <parameter name="RESPONSE_PORT" value="2" />
+  <parameter name="STRIDE_ENABLE" value="0" />
+  <parameter name="TRANSFER_TYPE" value="Aligned Accesses" />
+  <parameter name="USE_FIX_ADDRESS_WIDTH" value="0" />
+ </module>
+ <module name="msgdma_tx" kind="altera_msgdma" version="18.1" enabled="1">
+  <parameter name="AUTO_DESCRIPTOR_READ_MASTER_ADDRESS_MAP" value="" />
+  <parameter
+     name="AUTO_DESCRIPTOR_READ_MASTER_ADDRESS_WIDTH"
+     value="AddressWidth = -1" />
+  <parameter name="AUTO_DESCRIPTOR_WRITE_MASTER_ADDRESS_MAP" value="" />
+  <parameter
+     name="AUTO_DESCRIPTOR_WRITE_MASTER_ADDRESS_WIDTH"
+     value="AddressWidth = -1" />
+  <parameter name="AUTO_DEVICE" value="EP4CE115F29C7" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
+  <parameter name="AUTO_MM_READ_ADDRESS_MAP"><![CDATA[<address-map><slave name='descriptor_memory.s1' start='0x10001000' end='0x10002000' /></address-map>]]></parameter>
+  <parameter name="AUTO_MM_READ_ADDRESS_WIDTH" value="AddressWidth = 29" />
+  <parameter name="AUTO_MM_WRITE_ADDRESS_MAP" value="" />
+  <parameter name="AUTO_MM_WRITE_ADDRESS_WIDTH" value="AddressWidth = -1" />
+  <parameter name="BURST_ENABLE" value="0" />
+  <parameter name="BURST_WRAPPING_SUPPORT" value="0" />
+  <parameter name="CHANNEL_ENABLE" value="0" />
+  <parameter name="CHANNEL_WIDTH" value="8" />
+  <parameter name="DATA_FIFO_DEPTH" value="64" />
+  <parameter name="DATA_WIDTH" value="32" />
+  <parameter name="DESCRIPTOR_FIFO_DEPTH" value="128" />
+  <parameter name="ENHANCED_FEATURES" value="0" />
+  <parameter name="ERROR_ENABLE" value="0" />
+  <parameter name="ERROR_WIDTH" value="8" />
+  <parameter name="EXPOSE_ST_PORT" value="0" />
+  <parameter name="FIX_ADDRESS_WIDTH" value="32" />
+  <parameter name="MAX_BURST_COUNT" value="2" />
+  <parameter name="MAX_BYTE" value="1024" />
+  <parameter name="MAX_STRIDE" value="1" />
+  <parameter name="MODE" value="1" />
+  <parameter name="PACKET_ENABLE" value="1" />
+  <parameter name="PREFETCHER_DATA_WIDTH" value="32" />
+  <parameter name="PREFETCHER_ENABLE" value="0" />
+  <parameter name="PREFETCHER_MAX_READ_BURST_COUNT" value="2" />
+  <parameter name="PREFETCHER_READ_BURST_ENABLE" value="0" />
+  <parameter name="PROGRAMMABLE_BURST_ENABLE" value="0" />
+  <parameter name="RESPONSE_PORT" value="2" />
+  <parameter name="STRIDE_ENABLE" value="0" />
+  <parameter name="TRANSFER_TYPE" value="Aligned Accesses" />
+  <parameter name="USE_FIX_ADDRESS_WIDTH" value="0" />
+ </module>
  <module
    name="onchip_memory"
    kind="altera_avalon_onchip_memory2"
@@ -724,6 +858,20 @@
   <parameter name="useNonDefaultInitFile" value="false" />
   <parameter name="useShallowMemBlocks" value="false" />
   <parameter name="writable" value="true" />
+ </module>
+ <module name="pio_led" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="100000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="8" />
  </module>
  <module name="ram_clk" kind="clock_source" version="18.1" enabled="1">
   <parameter name="clockFrequency" value="100000000" />
@@ -759,40 +907,6 @@
   <parameter name="refreshPeriod" value="15.625" />
   <parameter name="registerDataIn" value="true" />
   <parameter name="rowWidth" value="13" />
- </module>
- <module name="sgdma_rx" kind="altera_avalon_sgdma" version="18.1" enabled="1">
-  <parameter name="addressWidth" value="32" />
-  <parameter name="alwaysDoMaxBurst" value="true" />
-  <parameter name="avalonMMByteReorderMode" value="0" />
-  <parameter name="dataTransferFIFODepth" value="2" />
-  <parameter name="deviceFamilyString" value="Cyclone IV E" />
-  <parameter name="enableBurstTransfers" value="false" />
-  <parameter name="enableDescriptorReadMasterBurst" value="false" />
-  <parameter name="enableUnalignedTransfers" value="false" />
-  <parameter name="internalFIFODepth" value="2" />
-  <parameter name="readBlockDataWidth" value="32" />
-  <parameter name="readBurstcountWidth" value="4" />
-  <parameter name="sinkErrorWidth" value="6" />
-  <parameter name="sourceErrorWidth" value="0" />
-  <parameter name="transferMode" value="STREAM_TO_MEMORY" />
-  <parameter name="writeBurstcountWidth" value="4" />
- </module>
- <module name="sgdma_tx" kind="altera_avalon_sgdma" version="18.1" enabled="1">
-  <parameter name="addressWidth" value="32" />
-  <parameter name="alwaysDoMaxBurst" value="true" />
-  <parameter name="avalonMMByteReorderMode" value="0" />
-  <parameter name="dataTransferFIFODepth" value="2" />
-  <parameter name="deviceFamilyString" value="Cyclone IV E" />
-  <parameter name="enableBurstTransfers" value="false" />
-  <parameter name="enableDescriptorReadMasterBurst" value="false" />
-  <parameter name="enableUnalignedTransfers" value="false" />
-  <parameter name="internalFIFODepth" value="2" />
-  <parameter name="readBlockDataWidth" value="32" />
-  <parameter name="readBurstcountWidth" value="4" />
-  <parameter name="sinkErrorWidth" value="0" />
-  <parameter name="sourceErrorWidth" value="1" />
-  <parameter name="transferMode" value="MEMORY_TO_STREAM" />
-  <parameter name="writeBurstcountWidth" value="4" />
  </module>
  <module name="sys_clk" kind="clock_source" version="18.1" enabled="1">
   <parameter name="clockFrequency" value="100000000" />
@@ -1058,16 +1172,7 @@
    start="cpu.data_master"
    end="jtag.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10004518" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="cpu.data_master"
-   end="LED_Pio.avalon_parallel_port_slave">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10004500" />
+  <parameter name="baseAddress" value="0x100044f8" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1076,7 +1181,7 @@
    start="cpu.data_master"
    end="Button_Pio.avalon_parallel_port_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x100044f0" />
+  <parameter name="baseAddress" value="0x100044e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1085,7 +1190,7 @@
    start="cpu.data_master"
    end="Switch_Pio.avalon_parallel_port_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x100044e0" />
+  <parameter name="baseAddress" value="0x100044d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1094,7 +1199,7 @@
    start="cpu.data_master"
    end="IO_Pio.avalon_parallel_port_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x100044d0" />
+  <parameter name="baseAddress" value="0x100044c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1112,23 +1217,23 @@
    start="cpu.data_master"
    end="sys_id.control_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10004510" />
+  <parameter name="baseAddress" value="0x100044f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
    kind="avalon"
    version="18.1"
    start="cpu.data_master"
-   end="sgdma_rx.csr">
+   end="msgdma_rx.csr">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10004440" />
+  <parameter name="baseAddress" value="0x10004420" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
    kind="avalon"
    version="18.1"
    start="cpu.data_master"
-   end="sgdma_tx.csr">
+   end="msgdma_tx.csr">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x10004400" />
   <parameter name="defaultConnection" value="false" />
@@ -1146,9 +1251,27 @@
    kind="avalon"
    version="18.1"
    start="cpu.data_master"
+   end="msgdma_rx.descriptor_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x100044a0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="cpu.data_master"
+   end="msgdma_tx.descriptor_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x10004490" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="cpu.data_master"
    end="sys_pll.pll_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x100044c0" />
+  <parameter name="baseAddress" value="0x100044b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="avalon" version="18.1" start="cpu.data_master" end="sdram.s1">
@@ -1162,12 +1285,12 @@
    start="cpu.data_master"
    end="sys_clk_timer.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x100044a0" />
+  <parameter name="baseAddress" value="0x10004460" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="avalon" version="18.1" start="cpu.data_master" end="uart.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10004480" />
+  <parameter name="baseAddress" value="0x10004440" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1188,40 +1311,9 @@
   <parameter name="baseAddress" value="0x10001000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="sgdma_tx.descriptor_read"
-   end="descriptor_memory.s1">
+ <connection kind="avalon" version="18.1" start="cpu.data_master" end="pio_led.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10001000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="sgdma_rx.descriptor_read"
-   end="descriptor_memory.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10001000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="sgdma_tx.descriptor_write"
-   end="descriptor_memory.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10001000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="sgdma_rx.descriptor_write"
-   end="descriptor_memory.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10001000" />
+  <parameter name="baseAddress" value="0x10004480" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1251,26 +1343,34 @@
   <parameter name="baseAddress" value="0x10002000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
- <connection kind="avalon" version="18.1" start="sgdma_tx.m_read" end="sdram.s1">
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="msgdma_tx.mm_read"
+   end="descriptor_memory.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x08000000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection kind="avalon" version="18.1" start="sgdma_rx.m_write" end="sdram.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x08000000" />
+  <parameter name="baseAddress" value="0x10001000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
-   kind="avalon_streaming"
+   kind="avalon"
    version="18.1"
-   start="sgdma_tx.out"
-   end="tse.transmit" />
+   start="msgdma_rx.mm_write"
+   end="descriptor_memory.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x10001000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
  <connection
    kind="avalon_streaming"
    version="18.1"
    start="tse.receive"
-   end="sgdma_rx.in" />
+   end="msgdma_rx.st_sink" />
+ <connection
+   kind="avalon_streaming"
+   version="18.1"
+   start="msgdma_tx.st_source"
+   end="tse.transmit" />
  <connection kind="clock" version="18.1" start="sys_pll.c0" end="sys_clk.clk_in" />
  <connection kind="clock" version="18.1" start="sys_pll.c1" end="ram_clk.clk_in" />
  <connection kind="clock" version="18.1" start="sys_clk.clk" end="cpu.clk" />
@@ -1282,13 +1382,11 @@
    start="sys_clk.clk"
    end="sys_clk_timer.clk" />
  <connection kind="clock" version="18.1" start="sys_clk.clk" end="Button_Pio.clk" />
- <connection kind="clock" version="18.1" start="sys_clk.clk" end="LED_Pio.clk" />
  <connection kind="clock" version="18.1" start="sys_clk.clk" end="Switch_Pio.clk" />
  <connection kind="clock" version="18.1" start="clock_50.clk" end="jtag.clk" />
  <connection kind="clock" version="18.1" start="sys_clk.clk" end="uart.clk" />
  <connection kind="clock" version="18.1" start="sys_clk.clk" end="IO_Pio.clk" />
- <connection kind="clock" version="18.1" start="sys_clk.clk" end="sgdma_rx.clk" />
- <connection kind="clock" version="18.1" start="sys_clk.clk" end="sgdma_tx.clk" />
+ <connection kind="clock" version="18.1" start="sys_clk.clk" end="pio_led.clk" />
  <connection
    kind="clock"
    version="18.1"
@@ -1299,6 +1397,8 @@
    version="18.1"
    start="sys_clk.clk"
    end="descriptor_memory.clk1" />
+ <connection kind="clock" version="18.1" start="sys_clk.clk" end="msgdma_rx.clock" />
+ <connection kind="clock" version="18.1" start="sys_clk.clk" end="msgdma_tx.clock" />
  <connection
    kind="clock"
    version="18.1"
@@ -1323,15 +1423,15 @@
    kind="interrupt"
    version="18.1"
    start="cpu.irq"
-   end="sgdma_rx.csr_irq">
-  <parameter name="irqNumber" value="3" />
+   end="msgdma_rx.csr_irq">
+  <parameter name="irqNumber" value="5" />
  </connection>
  <connection
    kind="interrupt"
    version="18.1"
    start="cpu.irq"
-   end="sgdma_tx.csr_irq">
-  <parameter name="irqNumber" value="4" />
+   end="msgdma_tx.csr_irq">
+  <parameter name="irqNumber" value="3" />
  </connection>
  <connection kind="interrupt" version="18.1" start="cpu.irq" end="jtag.irq">
   <parameter name="irqNumber" value="0" />
@@ -1390,11 +1490,6 @@
    kind="reset"
    version="18.1"
    start="clock_50.clk_reset"
-   end="LED_Pio.reset" />
- <connection
-   kind="reset"
-   version="18.1"
-   start="clock_50.clk_reset"
    end="Button_Pio.reset" />
  <connection
    kind="reset"
@@ -1415,12 +1510,7 @@
    kind="reset"
    version="18.1"
    start="clock_50.clk_reset"
-   end="sgdma_rx.reset" />
- <connection
-   kind="reset"
-   version="18.1"
-   start="clock_50.clk_reset"
-   end="sgdma_tx.reset" />
+   end="pio_led.reset" />
  <connection
    kind="reset"
    version="18.1"
@@ -1436,6 +1526,16 @@
    version="18.1"
    start="clock_50.clk_reset"
    end="tse.reset_connection" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clock_50.clk_reset"
+   end="msgdma_rx.reset_n" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clock_50.clk_reset"
+   end="msgdma_tx.reset_n" />
  <connection
    kind="reset"
    version="18.1"
@@ -1475,11 +1575,6 @@
    kind="reset"
    version="18.1"
    start="cpu.debug_reset_request"
-   end="LED_Pio.reset" />
- <connection
-   kind="reset"
-   version="18.1"
-   start="cpu.debug_reset_request"
    end="Button_Pio.reset" />
  <connection
    kind="reset"
@@ -1500,12 +1595,7 @@
    kind="reset"
    version="18.1"
    start="cpu.debug_reset_request"
-   end="sgdma_tx.reset" />
- <connection
-   kind="reset"
-   version="18.1"
-   start="cpu.debug_reset_request"
-   end="sgdma_rx.reset" />
+   end="pio_led.reset" />
  <connection
    kind="reset"
    version="18.1"
@@ -1521,6 +1611,16 @@
    version="18.1"
    start="cpu.debug_reset_request"
    end="tse.reset_connection" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="cpu.debug_reset_request"
+   end="msgdma_rx.reset_n" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="cpu.debug_reset_request"
+   end="msgdma_tx.reset_n" />
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
  <interconnectRequirement for="$system" name="qsys_mm.enableEccProtection" value="FALSE" />
  <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="FALSE" />
