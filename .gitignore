@@ -56,7 +56,6 @@ dkms.conf
 *.bak
 *.sopcinfo
 *.qws
-*.qpf
 *.rpt
 .qsys_edit/
 db/
